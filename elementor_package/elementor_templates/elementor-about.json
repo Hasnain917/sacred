@@ -1,0 +1,258 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - About Us",
+  "type": "page",
+  "content": [
+    {
+      "id": "11f92c3",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ddd6c5",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "08c4e30",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "eacd5c4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "THE PEOPLE & PURPOSE",
+                "header_size": "h6",
+                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "0be6e7c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Rooted in connection. Open to possibility.",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3a7423",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #576059; font-size: 18px; max-width: 700px; margin: auto;'>Our story begins with the belief that healing is a collective journey reconnecting us with ancestral wisdom.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a2e2f9",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "1bfca96",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "ca391dc",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/for_website_2.jpg",
+                  "alt": "Kai - Kaira Otero"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "6d94bbf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Meet Kai (Kaira Otero)",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 15px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "1dd161f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LCSW Psychotherapist \u00b7 Reiki Level II \u00b7 Certified Kambo Practitioner",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a;"
+              },
+              "elements": []
+            },
+            {
+              "id": "678ff24",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; line-height: 1.8;'>Kai was shaped by her early years in a working-class home led by her single immigrant mother. Over seven years as a psychotherapist have deepened her understanding of generational traumas. She became an LCSW, Reiki Level II, and Kambo practitioner, offering a sanctuary of compassion especially for adult children of immigrants and BIPOC women.</p>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "d6d8876",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "9135b51",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/333.jpg",
+                  "alt": "Bryant"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "7982651",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Meet Bryant",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 15px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "27a556e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reiki Master Teacher (10+ Years) \u00b7 Kambo Practitioner \u00b7 Earth Medicine Facilitator",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a;"
+              },
+              "elements": []
+            },
+            {
+              "id": "86b34c4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; line-height: 1.8;'>Bryant\u2019s journey was forged through profound personal transformation. Reconnecting with ancestral heritage and plant medicine gave him grounding and purpose. With over a decade as a Reiki Master Teacher and Kambo practitioner, Bryant fosters spaces for genuine connection and renewal, especially with BIPOC men and athletes.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d91a5f2",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "40d8318",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "2b460fd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "COMMON INQUIRIES",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "34a1906",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked Questions",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center; margin-bottom: 30px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "eef1e8c",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "tab_title": "What is Kambo, and how can it help me?",
+                    "tab_content": "Kambo is a traditional Amazonian medicine that comes from the secretion of the Phyllomedusa bicolor frog. It's used to cleanse the body, mind, and spirit. Kambo can help clear toxins, boost immunity, and release emotional blockages. Many people also experience greater clarity, focus, and a sense of alignment after a Kambo session. It\u2019s a powerful medicine for those seeking deep healing and transformation."
+                  },
+                  {
+                    "tab_title": "What are Hap\u00e9 and Sananga, and what should I expect in a ceremony?",
+                    "tab_content": "Hap\u00e9 (also known as Rap\u00e9) is a sacred tobacco snuff used by indigenous Amazonian tribes for grounding, clarity, and connection to spirit. Sananga is an eye drop made from a sacred Amazonian plant, used to enhance vision (both physical and spiritual) and clear energetic blockages. During a ceremony, you'll be guided through a meditative process, and we\u2019ll support you in connecting with these plant medicines in a safe and sacred space."
+                  },
+                  {
+                    "tab_title": "Do I need to have previous experience with plant medicine to participate?",
+                    "tab_content": "Not at all! We welcome everyone, whether you're new to these practices or have prior experience. Our ceremonies are designed to meet you where you are, and we\u2019ll guide you every step of the way. Your safety, comfort, and transformation are our top priorities."
+                  },
+                  {
+                    "tab_title": "What should I do to prepare for a Kambo, Hap\u00e9, or Sananga ceremony?",
+                    "tab_content": "Preparation is key to having a meaningful and safe experience. We recommend following a clean diet for a few days before the ceremony, avoiding alcohol, processed foods, and other toxins. Stay hydrated and set a clear intention for your healing journey. We\u2019ll provide you with detailed guidance on how to prepare beforehand, so you\u2019ll feel ready and supported."
+                  },
+                  {
+                    "tab_title": "What are the benefits of Reiki?",
+                    "tab_content": "Reiki is a gentle yet powerful energy healing practice that promotes balance and well-being on all levels\u2014physical, emotional, mental, and spiritual. Many people feel relaxed, lighter, and more centered after a session. It can help release stress, alleviate pain, and support emotional healing. Reiki is a beautiful complement to the plant medicine work we do, as it supports full holistic healing."
+                  },
+                  {
+                    "tab_title": "How can I book a session or ceremony?",
+                    "tab_content": "Booking a session is easy! You can schedule directly through our <a href='/scheduling/' style='color:#b7955e;text-decoration:underline;'>Scheduling page</a>, reach out to us through our <a href='/contact/' style='color:#b7955e;text-decoration:underline;'>Contact page</a>, or email us directly at <a href='mailto:sacredoriginsnyc@gmail.com' style='color:#b7955e;text-decoration:underline;'>sacredoriginsnyc@gmail.com</a>. We\u2019ll work with you to find a time and space that aligns with your needs."
+                  }
+                ]
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

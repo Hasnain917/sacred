@@ -1,0 +1,574 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Offerings",
+  "type": "page",
+  "content": [
+    {
+      "id": "16aa847",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ddd6c5",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "d8cc4a9",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "b8018e2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "GATHER \u00b7 REFLECT \u00b7 TRANSFORM",
+                "header_size": "h6",
+                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "80c768e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Sacred Offerings",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4a9a1ea",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "63eedac",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "1bfaa2f",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/kambo_image.png",
+                  "alt": "Kambo Ceremony"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "fde796d",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "e32c49d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Amazonian Medicine \u00b7 Detoxification \u00b7 Immunity",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "7fb636b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Kambo Ceremony",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "a98caec",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>Kambo is a traditional Amazonian medicine that comes from the secretion of the Phyllomedusa bicolor frog. It is used to cleanse the body, mind, and spirit. This powerful frog secretion helps detoxify, boost immunity, and release deep-seated emotional blockages. Our ceremonies honor the indigenous roots of Kambo, offering a safe, deeply held, and supportive space for renewal.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "2a39aa3",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire via Contact Form \u2197",
+                "link": {
+                  "url": "/contact/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0e21891",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0c6d11",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "74f5a2b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Energy Work \u00b7 Relaxation \u00b7 Alignment",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "ce2cc62",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reiki Healing",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "589d259",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>Reiki is a gentle, energy-based healing practice that promotes relaxation, balance, and emotional well-being. Using universal life force energy, Reiki clears energetic blockages and supports the body\u2019s innate healing capacity. Guided by a Reiki Master with over a decade of dedicated practice, experience deep peace and cellular restoration.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4a00a4c",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire via Contact Form \u2197",
+                "link": {
+                  "url": "/contact/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "44d0e30",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "84c4a5f",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/reiki_.png",
+                  "alt": "Reiki Healing"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e61b43f",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "bfc5491",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "c1ee92c",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/1eddb259-b0aa-4161-9d1a-72880a781f4f.jpg",
+                  "alt": "Retreats & Group Journeys"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "edda958",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "9a447a6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Community \u00b7 Deep Immersion \u00b7 Nature",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "9b1f504",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Retreats & Group Journeys",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "1f2edd1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>Our Sacred Healing Retreats offer immersive experiences in indigenous plant medicine, energy healing, and holistic practices. These retreats are designed to foster deep personal transformation, spiritual growth, and genuine community connection, all within a nurturing, intentional sanctuary away from the noise.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "50d5a0b",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire via Contact Form \u2197",
+                "link": {
+                  "url": "/contact/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de51f15",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "aef58e0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "b92a9ae",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sacred Snuff \u00b7 Inner Vision \u00b7 Grounding",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "ac32229",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Hap\u00e9 and Sananga Circles",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "2244c23",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>Join our Hap\u00e9 and Sananga Circles to connect with sacred Amazonian plant medicines. Hap\u00e9, an intentional sacred blend, grounds and clears the mind, while Sananga, sacred eye medicine, sharpens inner vision and releases emotional stagnation. Together, these ceremonies foster clarity and spiritual alignment.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "9c7bfe8",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire via Contact Form \u2197",
+                "link": {
+                  "url": "/contact/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "8371dbb",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "45985c7",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/_dsc7634.jpg",
+                  "alt": "Hap\u00e9 and Sananga Circles"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2fc7a3",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "f65a571",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "221b664",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/unsplash-image-betmvwgycly.jpg",
+                  "alt": "Psychedelic Preparation & Integration"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "7abfa5c",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "1231e18",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guidance \u00b7 Grounding \u00b7 Embodiment",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "d421383",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Psychedelic Preparation & Integration",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "d1038c8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>We offer compassionate guidance and clinical insight for those working with expanded states of consciousness, helping you prepare for transformative experiences and integrate the insights gained. Through personalized sessions led by licensed psychotherapy and somatic care, we help you embody your journey\u2019s wisdom.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "4fa7988",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire via Contact Form \u2197",
+                "link": {
+                  "url": "/contact/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "af17fe9",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "9527da3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "a9fa9e0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Space Clearing \u00b7 Protection \u00b7 Sacred Herbs",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "f9e67cd",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "House Cleansings / Limpias",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "81cb96f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>Our House Cleansings, or Limpias, are sacred rituals designed to clear negative energy and restore balance to your home or workspace. Using traditional tools like sacred copal, herbs, smoke, sound, and prayer, we purify the environment, inviting harmony, protection, and positive energy to flow freely.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "f1546b5",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Inquire via Contact Form \u2197",
+                "link": {
+                  "url": "/contact/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bd03ac0",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "6707d82",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/house_cleansing_.png",
+                  "alt": "House Cleansings / Limpias"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

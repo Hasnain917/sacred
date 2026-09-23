@@ -1,0 +1,93 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Shop",
+  "type": "page",
+  "content": [
+    {
+      "id": "b0bf592",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ddd6c5",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "3723bdc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "d9aa4fe",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "THE SACRED ORIGINS APOTHECARY",
+                "header_size": "h6",
+                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "3d428d8",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Gather your ritual.",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "aa9526f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #576059; font-size: 18px;'>Hap\u00e9 blends and traditional applicators, selected for intentional practice and ancestral connection.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e4c5553",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "ff7fe83",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "651ec9f",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[products columns='3' limit='12']"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Home",
+  "type": "page",
+  "content": [
+    {
+      "id": "b0e7a45",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#173328",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "bottom": "100",
+          "left": "40",
+          "right": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "aba9e7f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "d3a4267",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A SPACE FOR COMING BACK TO YOURSELF \u2014 NYC",
+                "header_size": "h5",
+                "custom_css": "color: #bfa677; letter-spacing: 0.2em; text-transform: uppercase;"
+              },
+              "elements": []
+            },
+            {
+              "id": "b7ec313",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Where healing is a collective journey.",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; color: #f5eedf; font-size: 56px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "999308e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #cad7c8; font-size: 18px; line-height: 1.8;'>Welcome to Sacred Origins. We offer heart-centered Kambo ceremonies, Reiki healing, retreats, and ancestral Earth medicine to empower our community and guide your personal transformation.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "59ba934",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Schedule a Call \u2197",
+                "link": {
+                  "url": "/contact/"
+                },
+                "button_type": "default"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "704eee6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "cc3330a",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.squarespace-cdn.com/content/v1/66eb0f36a4f6604238c67319/cbd523b2-f7d5-48c2-b4e4-ad731829fdb8/juli-kosolapova-pZ-XFIrJMtE-unsplash.jpg",
+                  "alt": "Sacred Origins sanctuary"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5cc7530",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80",
+          "left": "40",
+          "right": "40",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "665e082",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45
+          },
+          "elements": [
+            {
+              "id": "51ac36d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "01 / THE ETHOS \u2014 NEW YORK CITY",
+                "header_size": "h6",
+                "custom_css": "color: #bfa677; letter-spacing: 0.2em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "ad2265f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "A space to feel seen and supported.",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; color: #183126;"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "d90da8b",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55
+          },
+          "elements": [
+            {
+              "id": "d1876cc",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 16px; line-height: 1.85;'>At Sacred Origins NYC, we are a collective deeply rooted in empowering BIPOC communities through sacred healing practices. We understand that healing is not just a personal journey but a collective one that reconnects us with the wisdom and resilience of our ancestors.</p><p style='color: #576059; font-size: 16px; line-height: 1.85;'>Our mission is to provide a safe and transformative space where individuals can explore deep healing through a variety of modalities, including Kambo, Reiki, Earth Medicine Ceremonies, and Retreats.</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "26e5aba",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "The Story Behind Sacred Origins \u2197",
+                "link": {
+                  "url": "/about/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a85c1e5",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "81c8bdc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "cce3e67",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "02 / SACRED PATHWAYS",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "dc30809",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Core Ceremonial Offerings",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center; margin-bottom: 40px;"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e75fa64",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "30"
+        }
+      },
+      "elements": [
+        {
+          "id": "ea7f25f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "c8d725b",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/kambo_image.png",
+                  "alt": "Kambo Ceremony"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "7815cda",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Amazonian Medicine",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "3d1a05d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Kambo Ceremony",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 5px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "107983c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 14px; line-height: 1.7;'>Kambo is a traditional Amazonian medicine that comes from the secretion of the Phyllomedusa bicolor frog. It is used to cleanse the body, mind, and spirit. This...</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "2ab955f",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Learn More \u2197",
+                "link": {
+                  "url": "/offerings/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "3dfc050",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "044db68",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/reiki_.png",
+                  "alt": "Reiki Healing"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "e1db0f1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Energy Work",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "88138f4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Reiki Healing",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 5px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "8598e09",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 14px; line-height: 1.7;'>Reiki is a gentle, energy-based healing practice that promotes relaxation, balance, and emotional well-being. Using universal life force energy, Reiki clears en...</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "115f4bd",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Learn More \u2197",
+                "link": {
+                  "url": "/offerings/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "a5993e6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "3e94389",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/1eddb259-b0aa-4161-9d1a-72880a781f4f.jpg",
+                  "alt": "Retreats & Group Journeys"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "2ba9759",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Community",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "49894d0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Retreats & Group Journeys",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 5px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "83beaac",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 14px; line-height: 1.7;'>Our Sacred Healing Retreats offer immersive experiences in indigenous plant medicine, energy healing, and holistic practices. These retreats are designed to fos...</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "6e7d5b9",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Learn More \u2197",
+                "link": {
+                  "url": "/offerings/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06e4ddb",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ebe6d8",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "cc036dc",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "24346cb",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/_dsc7634.jpg",
+                  "alt": "Hap\u00e9 and Sananga Circles"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "6549aeb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sacred Snuff",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "53994a7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Hap\u00e9 and Sananga Circles",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 5px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "0de7bd0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 14px; line-height: 1.7;'>Join our Hap\u00e9 and Sananga Circles to connect with sacred Amazonian plant medicines. Hap\u00e9, an intentional sacred blend, grounds and clears the mind, while Sanang...</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "f4c870e",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Learn More \u2197",
+                "link": {
+                  "url": "/offerings/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "9ba4514",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "c556fd0",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/unsplash-image-betmvwgycly.jpg",
+                  "alt": "Psychedelic Preparation & Integration"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bef4f0d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Guidance",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "5fdf64a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Psychedelic Preparation & Integration",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 5px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "dc7fc15",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 14px; line-height: 1.7;'>We offer compassionate guidance and clinical insight for those working with expanded states of consciousness, helping you prepare for transformative experiences...</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "b934ecd",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Learn More \u2197",
+                "link": {
+                  "url": "/offerings/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "53807d8",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "32dd5f9",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/house_cleansing_.png",
+                  "alt": "House Cleansings / Limpias"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "fa4037c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Space Clearing",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "865e3c6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "House Cleansings / Limpias",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-top: 5px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "b90377c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; font-size: 14px; line-height: 1.7;'>Our House Cleansings, or Limpias, are sacred rituals designed to clear negative energy and restore balance to your home or workspace. Using traditional tools li...</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "cdbb89e",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Learn More \u2197",
+                "link": {
+                  "url": "/offerings/"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f488b32",
+      "elType": "section",
+      "settings": {
+        "background_color": "#162e24",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "600ca45",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "786f71e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "VOICES FROM OUR COMMUNITY",
+                "header_size": "h6",
+                "custom_css": "color: #bfa677; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "14a6750",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Words from the Circle",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; color: #f5eedf; text-align: center; margin-bottom: 40px;"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "094d219",
+      "elType": "section",
+      "settings": {
+        "background_color": "#162e24",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "6aadaec",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "21642e4",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "Kaira & Bryant have played a role in helping me change my life. They take the time to get to know you and create an environment that is safe, and simply feels like home. As someone who approaches the unfamiliar with precaution, it\u2019s been a breath of fresh air to come across people so patient, understanding and knowledgable. I look forward to more opportunities to work with them as I continue down my own journey of exploration and growth.",
+                "testimonial_name": "Lauren O.",
+                "testimonial_job": "Retreat & Ceremony"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "a2be23a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "0fe8610",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "I have had the pleasure of attending one of the retreats and receiving the guidance from both Kaira and Bryant. It was truly an enlightening experience and was the catalyst of my transformation in many areas of my life. On another occasion, I was educated about Hap\u00e8 and was served for the 1st time by Kaira. She was gentle and patient during this experience. I sat with this medicine for about 10 minutes. It felt as though my energy was renewed and protected. It shifted my perspective and I also felt a lot lighter afterwards. Thank you for continuing to help and heal our community!",
+                "testimonial_name": "Piri J.",
+                "testimonial_job": "Retreat & Hap\u00e9"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "c7ed7f4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "bebd0ec",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "This has been the most incredible and transformative experience I have ever had in my life - a milestone in my life that has brought clarity. I have spent these past 4 years between all types of mediations/therapists/solo travels etc. but nothing compares to setting an intention with what is earthly grown. I stand on the other side of this experience another person and a proud advocate of this experience. Being a human is tricky but can be so beautiful the further you explore.",
+                "testimonial_name": "Omar M.",
+                "testimonial_job": "Plant Medicine Journey"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

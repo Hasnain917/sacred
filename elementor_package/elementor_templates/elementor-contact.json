@@ -1,0 +1,136 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Contact",
+  "type": "page",
+  "content": [
+    {
+      "id": "351a086",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ddd6c5",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "ff26413",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "8697d3f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "WE WOULD LOVE TO HEAR FROM YOU",
+                "header_size": "h6",
+                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "90e267c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Let's Connect",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "852abf6",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "3d3deb5",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45
+          },
+          "elements": [
+            {
+              "id": "5622b33",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sacred Origins NYC",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif;"
+              },
+              "elements": []
+            },
+            {
+              "id": "4677e5f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='color: #576059; line-height: 1.8;'>We\u2019re Bryant and Kai. Whether you have questions about our offerings, want to join a ceremony, or are seeking guidance on your healing path, reach out to us!</p><p><strong>Email:</strong> <a href='mailto:sacredoriginsnyc@gmail.com' style='color:#9a794a;'>sacredoriginsnyc@gmail.com</a></p><p><strong>Location:</strong> New York City \u00b7 Lenapehoking</p>"
+              },
+              "elements": []
+            },
+            {
+              "id": "1bd825a",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://sacred-nu.vercel.app/assets/images/_dsc7710.jpg",
+                  "alt": "Sacred Origins Ceremony Space"
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "8bb6cbd",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55
+          },
+          "elements": [
+            {
+              "id": "b0beeac",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Send a Message",
+                "header_size": "h3",
+                "custom_css": "font-family: 'Playfair Display', serif; margin-bottom: 20px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "fb727b0",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "\n<form id=\"wp-contact-form\" style=\"display:flex; flex-direction:column; gap:16px;\">\n  <label style=\"font-size:12px; font-weight:600; text-transform:uppercase;\">Your Name *</label>\n  <input type=\"text\" name=\"name\" required style=\"padding:14px; border:1px solid #ccc; background:#fff;\">\n  <label style=\"font-size:12px; font-weight:600; text-transform:uppercase;\">Email Address *</label>\n  <input type=\"email\" name=\"email\" required style=\"padding:14px; border:1px solid #ccc; background:#fff;\">\n  <label style=\"font-size:12px; font-weight:600; text-transform:uppercase;\">Topic</label>\n  <select name=\"subject\" style=\"padding:14px; border:1px solid #ccc; background:#fff;\">\n    <option>General Inquiry</option>\n    <option>Kambo Ceremony</option>\n    <option>Reiki Healing</option>\n    <option>Retreats & Group Journeys</option>\n    <option>Hap\u00e9 & Sananga Circles</option>\n    <option>Psychedelic Integration</option>\n    <option>Shop & Products</option>\n  </select>\n  <label style=\"font-size:12px; font-weight:600; text-transform:uppercase;\">Your Message *</label>\n  <textarea name=\"message\" rows=\"5\" required style=\"padding:14px; border:1px solid #ccc; background:#fff;\"></textarea>\n  <button type=\"submit\" style=\"background:#183126; color:#fff; padding:16px 24px; border:none; cursor:pointer; font-weight:600; letter-spacing:0.1em; text-transform:uppercase;\">Send Message \u2197</button>\n</form>\n"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
