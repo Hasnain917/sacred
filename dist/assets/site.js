@@ -20,4 +20,5 @@ if('IntersectionObserver' in window&&!window.matchMedia('(prefers-reduced-motion
   document.documentElement.classList.add('motion-ready');
   const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in-view');observer.unobserve(entry.target)}})},{rootMargin:'0px 0px -5% 0px',threshold:.08});
   candidates.forEach(el=>observer.observe(el));
+  setTimeout(()=>{document.querySelectorAll('.motion-target:not(.in-view)').forEach(el=>el.classList.add('in-view'))},1000);
 }

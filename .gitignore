@@ -1,1 +1,4 @@
 .vercel
+scraped_data/
+*.pyc
+__pycache__/

@@ -21,6 +21,20 @@ Open http://localhost:8000/ in your browser.
 
 For Netlify or Vercel, publish `dist/` as the output directory. For traditional hosting, upload the contents of `dist/` into the site document root while preserving folder paths.
 
-## Current shop status
+## Pages & Structure
 
-The five product pages are an inquiry catalog. Prices, inventory, checkout, payment, and shipping are not connected. The contact form opens the visitor's email application; it does not submit to a server.
+- **Home** (`/` & `/home/`): Hero, Ethos, 6 Core Offerings, 10 Community Testimonials, Apothecary highlights, and Journal preview.
+- **About Us** (`/about/` & `/about-us/`): Bryant & Kai's journey, detailed co-founder bios with credentials, ancestral roots, core values, and comprehensive FAQ accordion.
+- **Offerings** (`/offerings/`): Kambo Ceremonies, Reiki, Retreats/Group Journeys, Hapé & Sananga Circles, Psychedelic Integration, and House Cleansings/Limpias with authentic imagery.
+- **Scheduling** (`/scheduling/`): Direct Calendly consultation booking (`sacredoriginsnyc/15`) and intake preparation notes.
+- **Journal / Blog** (`/blog/`): All in-depth medicine guides & pharmacology articles:
+  - *The Pharmacology of Kambo: How Its Compounds Affect the Human Body*
+  - *The Sacred Origins of Sananga: History, Benefits, and Usage*
+  - *Hapé: A Sacred Medicine for Spiritual Healing and Grounding*
+  - *Getting Ready for Your Kambo Ceremony: A Friendly Guide*
+  - *Discovering Kambo: A Sacred Healing Tradition for Modern Times*
+- **Apothecary / Shop** (`/shop/`): 5 curated botanical items (Cacao Hapé, Murici Hapé, Samaúma Flower Hapé, Kuripe, Tepi) with inquiry flow.
+- **Contact** (`/contact/`): Direct messaging form, email contact, and ceremonial space location.
+
+All images from `https://www.sacredorigins.org/` have been downloaded locally to `dist/assets/images/` and integrated into the site's rich aesthetic.
+
