@@ -1,0 +1,182 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Blog Journal",
+  "type": "page",
+  "content": [
+    {
+      "id": "27eb859",
+      "elType": "section",
+      "settings": {
+        "background_color": "#ded8c7",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "80"
+        }
+      },
+      "elements": [
+        {
+          "id": "7f931b1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "5136ee5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SACRED WRITINGS & SCIENCE",
+                "header_size": "h6",
+                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "725af59",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The Sacred Origins Journal.",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
+              },
+              "elements": []
+            },
+            {
+              "id": "69f964a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style='text-align: center; color: #576059; font-size: 18px; max-width: 650px; margin: auto;'>Exploring the cultural roots, pharmacology, and ceremonial wisdom of Kambo, Sananga, Hap\u00e9, and holistic healing.</p>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19f5ad1",
+      "elType": "section",
+      "settings": {
+        "background_color": "#f5f2ea",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "bottom": "90"
+        }
+      },
+      "elements": [
+        {
+          "id": "934f66a",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "1ea3607",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "ARTICLES & GUIDES",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "24e0ac5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Deep dives & medicine notes.",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; margin: 10px 0 35px;"
+              },
+              "elements": []
+            },
+            {
+              "id": "acb0518",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"blog-grid\">\n  <a class=\"blog-card\" href=\"/the-pharmacology-of-kambo-how-its-compounds-affect-the-human-body/\">\n    <div class=\"blog-thumb\" style=\"background-image:url('https://sacred-nu.vercel.app/assets/images/kambo_dots.jpg');\">\n      <span class=\"blog-tag\">Kambo Science</span>\n    </div>\n    <div class=\"blog-card-content\">\n      <div class=\"blog-meta\"><span>Kaira Otero, LCSW</span><span>7 min read</span></div>\n      <h3>The Pharmacology of Kambo: How Its Compounds Affect the Human Body</h3>\n      <p>Explore the science of Kambo, a powerful Amazonian healing tradition. Learn how its unique bioactive peptides work to purify the body, calm the mind, and uplift the spirit.</p>\n      <span class=\"blog-readmore\">Read Article <span>\u2197</span></span>\n    </div>\n  </a>\n\n  <a class=\"blog-card\" href=\"/the-sacred-origins-of-sananga-history-benefits-and-usage/\">\n    <div class=\"blog-thumb\" style=\"background-image:url('https://sacred-nu.vercel.app/assets/images/sananga_.jpeg');\">\n      <span class=\"blog-tag\">Plant Medicine</span>\n    </div>\n    <div class=\"blog-card-content\">\n      <div class=\"blog-meta\"><span>Kaira Otero, LCSW</span><span>6 min read</span></div>\n      <h3>The Sacred Origins of Sananga: History, Benefits, and Usage</h3>\n      <p>Discover the sacred origins of Sananga, an Amazonian eye medicine used for centuries to enhance vision, cleanse negative energy, and promote spiritual alignment.</p>\n      <span class=\"blog-readmore\">Read Article <span>\u2197</span></span>\n    </div>\n  </a>\n\n  <a class=\"blog-card\" href=\"/getting-ready-for-your-kambo-ceremony-a-friendly-guide/\">\n    <div class=\"blog-thumb\" style=\"background-image:url('https://sacred-nu.vercel.app/assets/images/kambo_2.jpg');\">\n      <span class=\"blog-tag\">Ceremony Prep</span>\n    </div>\n    <div class=\"blog-card-content\">\n      <div class=\"blog-meta\"><span>Kaira Otero, LCSW</span><span>5 min read</span></div>\n      <h3>Getting Ready for Your Kambo Ceremony: A Friendly Guide</h3>\n      <p>Preparing for your first Kambo session? Follow these essential steps for diet, mindset, hydration, and intention-setting to ensure a grounded experience.</p>\n      <span class=\"blog-readmore\">Read Article <span>\u2197</span></span>\n    </div>\n  </a>\n\n  <a class=\"blog-card\" href=\"/discovering-kambo-a-sacred-healing-tradition-for-modern-times/\">\n    <div class=\"blog-thumb\" style=\"background-image:url('https://sacred-nu.vercel.app/assets/images/kambo_1.png');\">\n      <span class=\"blog-tag\">Amazonian Medicine</span>\n    </div>\n    <div class=\"blog-card-content\">\n      <div class=\"blog-meta\"><span>Kaira Otero, LCSW</span><span>6 min read</span></div>\n      <h3>Discovering Kambo: A Sacred Healing Tradition for Modern Times</h3>\n      <p>Discover the transformative power of Kambo, a sacred healing practice rooted in Amazonian indigenous traditions. Learn about its cultural significance and holistic benefits.</p>\n      <span class=\"blog-readmore\">Read Article <span>\u2197</span></span>\n    </div>\n  </a>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "79087a4",
+      "elType": "section",
+      "settings": {
+        "background_color": "#183126",
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "bottom": "70"
+        }
+      },
+      "elements": [
+        {
+          "id": "10a9a8f",
+          "elType": "column",
+          "settings": {
+            "_column_size": 70
+          },
+          "elements": [
+            {
+              "id": "647e99a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "CONTINUE THE CONVERSATION",
+                "header_size": "h6",
+                "custom_css": "color: #bfa677; letter-spacing: 0.15em;"
+              },
+              "elements": []
+            },
+            {
+              "id": "a88c4bf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Have a question about one of the medicines?",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; color: #f5eedf;"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ae189e6",
+          "elType": "column",
+          "settings": {
+            "_column_size": 30
+          },
+          "elements": [
+            {
+              "id": "997410c",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Send us a Message \u2197",
+                "link": {
+                  "url": "/contact/"
+                },
+                "button_type": "default"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

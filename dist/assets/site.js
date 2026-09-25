@@ -73,22 +73,29 @@ if (form) {
   });
 }
 
-// Section-aware entrances
+// Section-aware entrances (Compatible with standard HTML and WordPress Elementor)
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const candidates = [];
-  document.querySelectorAll('main > section, footer').forEach((section, sectionIndex) => {
-    const items = section.querySelectorAll('h1,h2,h3,p,.button,.underline-link,.hero-visual,.editorial-photo,.about-image,.contact-art,.detail-image,.product-card,.offering-card,.offering-list a,.values-grid>div,.contact-form,.footer-intro,.footer-wordmark,.testimonial-card,.founder-card,.blog-card');
+  const containerSelector = '.elementor-section, .e-con, section, article, .article-wrap, main > section, footer, .site-main, .entry-content';
+  const sections = document.querySelectorAll(containerSelector);
+
+  sections.forEach((section, sectionIndex) => {
+    const itemSelector = 'h1,h2,h3,p,.button,.underline-link,.hero-visual,.editorial-photo,.about-image,.contact-art,.detail-image,.product-card,.offering-card,.offering-list a,.values-grid>div,.contact-form,.footer-intro,.footer-wordmark,.testimonial-card,.founder-card,.blog-card,.elementor-widget-heading,.elementor-widget-text-editor,.elementor-widget-button,.elementor-widget-image';
+    const items = section.querySelectorAll(itemSelector);
     let sequence = 0;
+
     items.forEach(el => {
       if (el.closest('.product-card,.offering-card,.contact-form,.values-grid>div,.offering-list a,.testimonial-card,.founder-card,.blog-card') !== el && el.closest('.product-card,.offering-card,.contact-form,.values-grid>div,.offering-list a,.testimonial-card,.founder-card,.blog-card')) return;
       if (el.closest('.hero-visual,.editorial-photo') && el.closest('.hero-visual,.editorial-photo') !== el) return;
-      const isImage = el.matches('.hero-visual,.editorial-photo,.about-image,.contact-art,.detail-image,.product-card,.testimonial-card,.founder-card,.blog-card');
+      
+      const isImage = el.matches('.hero-visual,.editorial-photo,.about-image,.contact-art,.detail-image,.product-card,.testimonial-card,.founder-card,.blog-card,.elementor-widget-image');
       el.classList.add('motion-target', isImage ? 'motion-image' : ((sectionIndex + sequence) % 2 ? 'motion-left' : 'motion-right'));
       el.style.setProperty('--entrance-delay', `${Math.min(sequence % 5, 4) * 75}ms`);
       candidates.push(el);
       sequence++;
     });
   });
+
   document.documentElement.classList.add('motion-ready');
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -98,6 +105,7 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
       }
     });
   }, { rootMargin: '0px 0px -5% 0px', threshold: .08 });
+
   candidates.forEach(el => observer.observe(el));
   setTimeout(() => {
     document.querySelectorAll('.motion-target:not(.in-view)').forEach(el => el.classList.add('in-view'));

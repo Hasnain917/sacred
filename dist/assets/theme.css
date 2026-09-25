@@ -2144,3 +2144,124 @@ h1, h2, h3, h4, p, span, a, label {
   }
 }
 
+/* ==============================================================================
+   WORDPRESS BLOG & SINGLE POST THEME OVERRIDES
+   ============================================================================== */
+.blog .site-main,
+.archive .site-main,
+.blog-page-wrap {
+  padding: 60px var(--gutter-calc) 90px;
+}
+
+/* Single Post Page Container */
+.single .site-main,
+.single-post .site-main,
+.single article.post,
+.single-post article,
+.single-post .post,
+.post-template-default article,
+.post-template-default .site-main {
+  max-width: 920px !important;
+  margin: 0 auto !important;
+  padding: 40px var(--gutter-calc) 80px !important;
+  background: var(--cream) !important;
+}
+
+/* Post Titles & Meta */
+.single .entry-title,
+.single-post .entry-title,
+.single-post h1.post-title,
+.single-post h1.entry-title {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: clamp(2.2rem, 4.4vw, 4.2rem) !important;
+  line-height: 1.12 !important;
+  margin: 15px 0 20px !important;
+  text-align: center !important;
+  color: var(--forest) !important;
+  font-weight: 400 !important;
+}
+
+.single .entry-meta,
+.single-post .entry-meta,
+.single .post-meta {
+  text-align: center !important;
+  color: #786952 !important;
+  font-size: 13px !important;
+  margin-bottom: 30px !important;
+  letter-spacing: .05em !important;
+}
+
+/* Featured Images */
+.single .post-thumbnail,
+.single-post .post-thumbnail,
+.single .wp-post-image {
+  margin: 25px 0 35px !important;
+  text-align: center !important;
+}
+.single .post-thumbnail img,
+.single-post .post-thumbnail img,
+.single img.wp-post-image {
+  width: 100% !important;
+  max-height: 480px !important;
+  object-fit: cover !important;
+  border: 1px solid #d5cfbe !important;
+}
+
+/* Post Content & Lead */
+.entry-content,
+.post-content {
+  color: #303a32 !important;
+  font-size: 16.5px !important;
+  line-height: 1.85 !important;
+  font-family: 'DM Sans', sans-serif !important;
+}
+.entry-content .lead,
+.post-content .lead {
+  font-size: 18px !important;
+  line-height: 1.8 !important;
+  color: #24352a !important;
+  margin-bottom: 25px !important;
+}
+.entry-content h2,
+.post-content h2 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: clamp(2rem, 3.2vw, 3rem) !important;
+  margin: 40px 0 18px !important;
+  color: var(--forest) !important;
+  font-weight: 400 !important;
+}
+.entry-content h3,
+.post-content h3 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: clamp(1.7rem, 2.6vw, 2.3rem) !important;
+  margin: 32px 0 14px !important;
+  color: var(--forest) !important;
+  font-weight: 400 !important;
+}
+.entry-content h4,
+.post-content h4 {
+  font-size: 1.35rem !important;
+  margin: 22px 0 10px !important;
+  font-family: 'Playfair Display', serif !important;
+  color: #8f7041 !important;
+  font-weight: 400 !important;
+}
+.entry-content p,
+.post-content p {
+  margin-bottom: 22px !important;
+}
+.entry-content ul,
+.entry-content ol {
+  margin-bottom: 24px !important;
+  padding-left: 24px !important;
+}
+.entry-content li {
+  margin-bottom: 10px !important;
+}
+.entry-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 20px 0 !important;
+}
+
+

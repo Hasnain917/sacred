@@ -564,6 +564,129 @@ with open(TEMPLATES_DIR / "elementor-shop.json", "w", encoding="utf-8") as f:
     json.dump(shop_template, f, indent=2)
 
 # -----------------------------------------------------------------------------
+# 5a. ELEMENTOR TEMPLATE: BLOG HUB
+# -----------------------------------------------------------------------------
+blog_cards_html = """<div class="blog-grid">
+  <a class="blog-card" href="/the-pharmacology-of-kambo-how-its-compounds-affect-the-human-body/">
+    <div class="blog-thumb" style="background-image:url('https://sacred-nu.vercel.app/assets/images/kambo_dots.jpg');">
+      <span class="blog-tag">Kambo Science</span>
+    </div>
+    <div class="blog-card-content">
+      <div class="blog-meta"><span>Kaira Otero, LCSW</span><span>7 min read</span></div>
+      <h3>The Pharmacology of Kambo: How Its Compounds Affect the Human Body</h3>
+      <p>Explore the science of Kambo, a powerful Amazonian healing tradition. Learn how its unique bioactive peptides work to purify the body, calm the mind, and uplift the spirit.</p>
+      <span class="blog-readmore">Read Article <span>↗</span></span>
+    </div>
+  </a>
+
+  <a class="blog-card" href="/the-sacred-origins-of-sananga-history-benefits-and-usage/">
+    <div class="blog-thumb" style="background-image:url('https://sacred-nu.vercel.app/assets/images/sananga_.jpeg');">
+      <span class="blog-tag">Plant Medicine</span>
+    </div>
+    <div class="blog-card-content">
+      <div class="blog-meta"><span>Kaira Otero, LCSW</span><span>6 min read</span></div>
+      <h3>The Sacred Origins of Sananga: History, Benefits, and Usage</h3>
+      <p>Discover the sacred origins of Sananga, an Amazonian eye medicine used for centuries to enhance vision, cleanse negative energy, and promote spiritual alignment.</p>
+      <span class="blog-readmore">Read Article <span>↗</span></span>
+    </div>
+  </a>
+
+  <a class="blog-card" href="/getting-ready-for-your-kambo-ceremony-a-friendly-guide/">
+    <div class="blog-thumb" style="background-image:url('https://sacred-nu.vercel.app/assets/images/kambo_2.jpg');">
+      <span class="blog-tag">Ceremony Prep</span>
+    </div>
+    <div class="blog-card-content">
+      <div class="blog-meta"><span>Kaira Otero, LCSW</span><span>5 min read</span></div>
+      <h3>Getting Ready for Your Kambo Ceremony: A Friendly Guide</h3>
+      <p>Preparing for your first Kambo session? Follow these essential steps for diet, mindset, hydration, and intention-setting to ensure a grounded experience.</p>
+      <span class="blog-readmore">Read Article <span>↗</span></span>
+    </div>
+  </a>
+
+  <a class="blog-card" href="/discovering-kambo-a-sacred-healing-tradition-for-modern-times/">
+    <div class="blog-thumb" style="background-image:url('https://sacred-nu.vercel.app/assets/images/kambo_1.png');">
+      <span class="blog-tag">Amazonian Medicine</span>
+    </div>
+    <div class="blog-card-content">
+      <div class="blog-meta"><span>Kaira Otero, LCSW</span><span>6 min read</span></div>
+      <h3>Discovering Kambo: A Sacred Healing Tradition for Modern Times</h3>
+      <p>Discover the transformative power of Kambo, a sacred healing practice rooted in Amazonian indigenous traditions. Learn about its cultural significance and holistic benefits.</p>
+      <span class="blog-readmore">Read Article <span>↗</span></span>
+    </div>
+  </a>
+</div>"""
+
+blog_sections = [
+    make_section([
+        make_column([
+            make_widget("heading", {
+                "title": "SACRED WRITINGS & SCIENCE",
+                "header_size": "h6",
+                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
+            }),
+            make_widget("heading", {
+                "title": "The Sacred Origins Journal.",
+                "header_size": "h1",
+                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
+            }),
+            make_widget("text-editor", {
+                "editor": "<p style='text-align: center; color: #576059; font-size: 18px; max-width: 650px; margin: auto;'>Exploring the cultural roots, pharmacology, and ceremonial wisdom of Kambo, Sananga, Hapé, and holistic healing.</p>"
+            })
+        ], 100)
+    ], {"background_color": "#ded8c7", "padding": {"unit": "px", "top": "80", "bottom": "80"}}),
+
+    make_section([
+        make_column([
+            make_widget("heading", {
+                "title": "ARTICLES & GUIDES",
+                "header_size": "h6",
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+            }),
+            make_widget("heading", {
+                "title": "Deep dives & medicine notes.",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; margin: 10px 0 35px;"
+            }),
+            make_widget("html", {
+                "html": blog_cards_html
+            })
+        ], 100)
+    ], {"background_color": "#f5f2ea", "padding": {"unit": "px", "top": "80", "bottom": "90"}}),
+
+    make_section([
+        make_column([
+            make_widget("heading", {
+                "title": "CONTINUE THE CONVERSATION",
+                "header_size": "h6",
+                "custom_css": "color: #bfa677; letter-spacing: 0.15em;"
+            }),
+            make_widget("heading", {
+                "title": "Have a question about one of the medicines?",
+                "header_size": "h2",
+                "custom_css": "font-family: 'Playfair Display', serif; color: #f5eedf;"
+            })
+        ], 70),
+        make_column([
+            make_widget("button", {
+                "text": "Send us a Message ↗",
+                "link": {"url": "/contact/"},
+                "button_type": "default"
+            })
+        ], 30)
+    ], {"background_color": "#183126", "padding": {"unit": "px", "top": "70", "bottom": "70"}})
+]
+
+blog_template = {
+    "version": "0.4",
+    "title": "Sacred Origins - Blog Journal",
+    "type": "page",
+    "content": blog_sections
+}
+with open(TEMPLATES_DIR / "elementor-blog.json", "w", encoding="utf-8") as f:
+    json.dump(blog_template, f, indent=2)
+
+
+# -----------------------------------------------------------------------------
 # 5b. ELEMENTOR TEMPLATE: HEADER
 # -----------------------------------------------------------------------------
 header_html = """<div class="announcement">
