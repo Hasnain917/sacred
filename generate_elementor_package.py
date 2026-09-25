@@ -903,6 +903,10 @@ with open(xml_file, "w", encoding="utf-8") as f:
 # -----------------------------------------------------------------------------
 # 8. CREATE COMPLETE ZIP PACKAGE
 # -----------------------------------------------------------------------------
+import shutil
+shutil.copy(Path("dist/assets/images/sacred-origins-official-logo.png"), OUTPUT_DIR / "sacred-origins-official-logo.png")
+shutil.copy(Path("dist/assets/images/sacred-origins-logo-light.png"), OUTPUT_DIR / "sacred-origins-logo-light.png")
+
 zip_path = Path("sacred-origins-elementor-complete-package.zip")
 with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
     for root_dir, dirs, files in os.walk(OUTPUT_DIR):
