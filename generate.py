@@ -79,6 +79,16 @@ offerings_data = [
 # Client Testimonials from Sacred Origins
 testimonials_data = [
     {
+        'name': 'Clarimar',
+        'quote': "If you're looking to start your healing journey or continue it, I highly recommend Sacred Origins NYC. The care and hard work I saw and experienced both through the retreat and local group work is admirable. There's a lot of care and intentionality that went into ensuring that the practices remain sacred and that the journey feels safe. It's suitable for those who are less outgoing and for those who are more comfortable taking up space since there is a balance of group and private time. I was able to receive/grow not only from the moments I engaged with the practices, but also from the private moments and curated group ones. Looking forward to the next retreat!",
+        'badge': 'Retreat & Group Work'
+    },
+    {
+        'name': 'Alexander',
+        'quote': "I have no words to describe how amazing my spiritual retreat experience was with Sacred Origins, I am deeply thankful for everything. I can’t wait for the next retreat.",
+        'badge': 'Spiritual Retreat'
+    },
+    {
         'name': 'Lauren O.',
         'quote': 'Kaira & Bryant have played a role in helping me change my life. They take the time to get to know you and create an environment that is safe, and simply feels like home. As someone who approaches the unfamiliar with precaution, it’s been a breath of fresh air to come across people so patient, understanding and knowledgable. I look forward to more opportunities to work with them as I continue down my own journey of exploration and growth.',
         'badge': 'Retreat & Ceremony'
@@ -469,38 +479,40 @@ def shell(title, body, active='', description='Sacred Origins NYC — Heart-cent
     {body}
   </main>
   <footer class="footer">
-    <div class="footer-intro">
-      <span class="eyebrow light">THE NEXT CHAPTER BEGINS HERE</span>
-      <a href="/scheduling/">Begin your journey <span aria-hidden="true">↗</span></a>
-    </div>
-    <div class="footer-top">
-      <div>
-        <a class="footer-logo" href="/" aria-label="Sacred Origins home">
-          <img src="/assets/images/sacred-origins-logo-light.png" width="160" height="160" alt="Sacred Origins NYC">
-        </a>
-        <p>A sacred sanctuary for healing, reflection, and ancestral reconnection.</p>
-        <a href="mailto:sacredoriginsnyc@gmail.com" class="footer-mail">sacredoriginsnyc@gmail.com ↗</a>
+    <div class="footer-inner-wrap">
+      <div class="footer-intro">
+        <span class="eyebrow light">THE NEXT CHAPTER BEGINS HERE</span>
+        <a href="/scheduling/">Begin your journey <span aria-hidden="true">↗</span></a>
       </div>
-      <div>
-        <h3>Explore</h3>
-        <a href="/about/">About Us</a>
-        <a href="/offerings/">Offerings</a>
-        <a href="/scheduling/">Scheduling</a>
-        <a href="/shop/">Apothecary</a>
-        <a href="/blog/">Journal & Articles</a>
+      <div class="footer-top">
+        <div>
+          <a class="footer-logo" href="/" aria-label="Sacred Origins home">
+            <img src="/assets/images/sacred-origins-logo-light.png" width="160" height="160" alt="Sacred Origins NYC">
+          </a>
+          <p>A sacred sanctuary for healing, reflection, and ancestral reconnection.</p>
+          <a href="mailto:sacredoriginsnyc@gmail.com" class="footer-mail">sacredoriginsnyc@gmail.com ↗</a>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="/about/">About Us</a>
+          <a href="/offerings/">Offerings</a>
+          <a href="/scheduling/">Scheduling</a>
+          <a href="/shop/">Apothecary</a>
+          <a href="/blog/">Journal & Articles</a>
+        </div>
+        <div>
+          <h3>Connect</h3>
+          <a href="/contact/">Contact Us</a>
+          <a href="/scheduling/">Schedule a Consultation</a>
+          <span>New York City · Lenapehoking</span>
+        </div>
       </div>
-      <div>
-        <h3>Connect</h3>
-        <a href="/contact/">Contact Us</a>
-        <a href="/scheduling/">Schedule a Consultation</a>
-        <span>New York City · Lenapehoking</span>
+      <a class="footer-wordmark" href="/" aria-label="Sacred Origins home">SACRED<span>✺</span>ORIGINS</a>
+      <div class="footer-bottom">
+        <span>© 2026 Sacred Origins NYC. All Rights Reserved.</span>
+        <span>EMPOWERING BIPOC COMMUNITIES · GUIDED BY ANCESTRAL WISDOM</span>
+        <a href="#main">BACK TO TOP ↑</a>
       </div>
-    </div>
-    <a class="footer-wordmark" href="/" aria-label="Sacred Origins home">SACRED<span>✺</span>ORIGINS</a>
-    <div class="footer-bottom">
-      <span>© 2026 Sacred Origins NYC. All Rights Reserved.</span>
-      <span>EMPOWERING BIPOC COMMUNITIES · GUIDED BY ANCESTRAL WISDOM</span>
-      <a href="#main">BACK TO TOP ↑</a>
     </div>
   </footer>
 </body>
@@ -573,8 +585,8 @@ home_content = f'''
     <h1>Where healing is a<br><em>collective journey.</em></h1>
     <p>Welcome to Sacred Origins. We offer heart-centered Kambo ceremonies, Reiki healing, retreats, and ancestral Earth medicine to empower our community and guide your personal transformation.</p>
     <div class="hero-buttons">
-      <a class="button button-cream" href="/scheduling/">Schedule a call <span>↗</span></a>
-      <a class="text-link light-link" href="/about/">Meet Sacred Origins <span>↗</span></a>
+      <a class="button button-cream" href="/contact/">Contact Us <span>↗</span></a>
+      <a class="text-link light-link" href="/shop/">Shop the Apothecary <span>↗</span></a>
     </div>
     <div class="hero-index">01 <span>/</span> 04 <i></i> DISCOVER THE STORY</div>
   </div>
@@ -616,7 +628,7 @@ home_content = f'''
     </div>
     <a class="underline-link" href="/offerings/">View all offerings <span>↗</span></a>
   </div>
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:28px;">
+  <div class="offerings-grid">
     {home_offerings_grid}
   </div>
 </section>
@@ -635,15 +647,17 @@ home_content = f'''
 </section>
 
 <section class="testimonials-section">
-  <div class="testimonials-header">
-    <div>
-      <p class="eyebrow light">VOICES FROM THE CIRCLE</p>
-      <h2>Words from our<br><em>community.</em></h2>
+  <div class="testimonials-inner">
+    <div class="testimonials-header">
+      <div>
+        <p class="eyebrow light">VOICES FROM THE CIRCLE</p>
+        <h2>Words from our<br><em>community.</em></h2>
+      </div>
+      <a class="text-link light-link" href="/about/#testimonials">Read all reflections <span>↗</span></a>
     </div>
-    <a class="text-link light-link" href="/about/#testimonials">Read all reflections <span>↗</span></a>
-  </div>
-  <div class="testimonials-grid">
-    {home_testimonials_html}
+    <div class="testimonials-grid">
+      {home_testimonials_html}
+    </div>
   </div>
 </section>
 
@@ -653,23 +667,25 @@ home_content = f'''
       <p class="eyebrow">04 / THE APOTHECARY</p>
       <h2>Hand selected<br><em>ceremonial tools.</em></h2>
     </div>
-    <a class="underline-link" href="/shop/">Enter the collection <span>↗</span></a>
+    <a class="underline-link" href="/shop/">Enter the Apothecary <span>↗</span></a>
   </div>
   <div class="product-grid featured-grid">
     {''.join(card(p) for p in products[:3])}
   </div>
 </section>
 
-<section class="section-wrap" style="background:#ebe6d8;">
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">05 / KNOWLEDGE & MEDICINE</p>
-      <h2>From the <em>journal.</em></h2>
+<section style="background:#ebe6d8;">
+  <div class="section-wrap" style="padding-top:70px;padding-bottom:70px;">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">05 / KNOWLEDGE & MEDICINE</p>
+        <h2>From the <em>journal.</em></h2>
+      </div>
+      <a class="underline-link" href="/blog/">Read all articles <span>↗</span></a>
     </div>
-    <a class="underline-link" href="/blog/">Read all articles <span>↗</span></a>
-  </div>
-  <div class="blog-grid">
-    {home_blog_cards}
+    <div class="blog-grid">
+      {home_blog_cards}
+    </div>
   </div>
 </section>
 
@@ -684,11 +700,13 @@ home_content = f'''
 </section>
 
 <section class="contact-banner">
-  <div>
-    <p class="eyebrow light">A CONVERSATION IS A BEGINNING</p>
-    <h2>Find your way<br><em>back to center.</em></h2>
+  <div class="contact-banner-inner">
+    <div>
+      <p class="eyebrow light">A CONVERSATION IS A BEGINNING</p>
+      <h2>Find your way<br><em>back to your center.</em></h2>
+    </div>
+    <a class="button button-cream" href="/contact/">Get in touch <span>↗</span></a>
   </div>
-  <a class="button button-cream" href="/contact/">Get in touch <span>↗</span></a>
 </section>
 '''
 
@@ -797,15 +815,17 @@ about_content = f'''
 </section>
 
 <section class="testimonials-section" id="testimonials">
-  <div class="testimonials-header">
-    <div>
-      <p class="eyebrow light">AUTHENTIC EXPERIENCES</p>
-      <h2>Transformations from<br><em>our community.</em></h2>
+  <div class="testimonials-inner">
+    <div class="testimonials-header">
+      <div>
+        <p class="eyebrow light">AUTHENTIC EXPERIENCES</p>
+        <h2>Transformations from<br><em>our community.</em></h2>
+      </div>
+      <p style="color:#b5c4b8;max-width:400px;font-size:14px;">Every journey is unique. Read how our circles, Kambo sessions, and retreats have supported our participants.</p>
     </div>
-    <p style="color:#b5c4b8;max-width:400px;font-size:14px;">Every journey is unique. Read how our circles, Kambo sessions, and retreats have supported our participants.</p>
-  </div>
-  <div class="testimonials-grid">
-    {all_testimonials_html}
+    <div class="testimonials-grid">
+      {all_testimonials_html}
+    </div>
   </div>
 </section>
 
