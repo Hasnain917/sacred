@@ -1,0 +1,43 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Footer",
+  "type": "section",
+  "content": [
+    {
+      "id": "a49e076",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "0",
+          "left": "0",
+          "right": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "f1934ca",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "7d4b6f5",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<footer class=\"footer\">\n  <div class=\"footer-inner-wrap\">\n    <div class=\"footer-intro\">\n      <span class=\"eyebrow light\">THE NEXT CHAPTER BEGINS HERE</span>\n      <a href=\"/scheduling/\">Begin your journey <span>\u2197</span></a>\n    </div>\n    <div class=\"footer-top\">\n      <div>\n        <a class=\"footer-logo\" href=\"/\" aria-label=\"Sacred Origins home\">\n          <img src=\"/wp-content/uploads/sacred-origins-logo-light.png\" width=\"150\" height=\"150\" alt=\"Sacred Origins NYC\">\n        </a>\n        <p>A sacred sanctuary for healing, reflection, and ancestral reconnection.</p>\n        <a href=\"mailto:sacredoriginsnyc@gmail.com\" class=\"footer-mail\">sacredoriginsnyc@gmail.com \u2197</a>\n      </div>\n      <div>\n        <h3>Explore</h3>\n        <a href=\"/about-us/\">About Us</a>\n        <a href=\"/offerings/\">Offerings</a>\n        <a href=\"/scheduling/\">Scheduling</a>\n        <a href=\"/shop/\">Apothecary</a>\n        <a href=\"/blog/\">Journal & Articles</a>\n      </div>\n      <div>\n        <h3>Connect</h3>\n        <a href=\"/contact/\">Contact Us</a>\n        <a href=\"/scheduling/\">Schedule a Consultation</a>\n        <span>New York City \u00b7 Lenapehoking</span>\n      </div>\n    </div>\n    <a class=\"footer-wordmark\" href=\"/\" aria-label=\"Sacred Origins home\">SACRED<span>\u273a</span>ORIGINS</a>\n    <div class=\"footer-bottom\">\n      <span>\u00a9 2026 Sacred Origins NYC. All Rights Reserved.</span>\n      <span>EMPOWERING BIPOC COMMUNITIES \u00b7 GUIDED BY ANCESTRAL WISDOM</span>\n      <a href=\"#main\">BACK TO TOP \u2191</a>\n    </div>\n  </div>\n</footer>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

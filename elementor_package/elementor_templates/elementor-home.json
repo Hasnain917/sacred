@@ -4,7 +4,7 @@
   "type": "page",
   "content": [
     {
-      "id": "d84b432",
+      "id": "94e6eaa",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -20,14 +20,14 @@
       },
       "elements": [
         {
-          "id": "a85337f",
+          "id": "bc3249e",
           "elType": "column",
           "settings": {
             "_column_size": 60
           },
           "elements": [
             {
-              "id": "f4f7922",
+              "id": "0af1b73",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -38,7 +38,7 @@
               "elements": []
             },
             {
-              "id": "bf47d31",
+              "id": "9f77d66",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -49,7 +49,7 @@
               "elements": []
             },
             {
-              "id": "6b3e78e",
+              "id": "74b0e5f",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -58,7 +58,7 @@
               "elements": []
             },
             {
-              "id": "028d6ac",
+              "id": "2f9785f",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -73,14 +73,14 @@
           ]
         },
         {
-          "id": "094759c",
+          "id": "04324bf",
           "elType": "column",
           "settings": {
             "_column_size": 40
           },
           "elements": [
             {
-              "id": "65f8753",
+              "id": "92f5e5e",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "id": "6091b9d",
+      "id": "b5a8698",
       "elType": "section",
       "settings": {
         "background_background": "classic",
@@ -112,14 +112,14 @@
       },
       "elements": [
         {
-          "id": "a5f31ab",
+          "id": "9ab9888",
           "elType": "column",
           "settings": {
             "_column_size": 45
           },
           "elements": [
             {
-              "id": "f547527",
+              "id": "9b0ef13",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -130,7 +130,7 @@
               "elements": []
             },
             {
-              "id": "5ddac0c",
+              "id": "f3fe06f",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -143,14 +143,14 @@
           ]
         },
         {
-          "id": "46cd629",
+          "id": "398019d",
           "elType": "column",
           "settings": {
             "_column_size": 55
           },
           "elements": [
             {
-              "id": "b641b5a",
+              "id": "07b6306",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -159,7 +159,7 @@
               "elements": []
             },
             {
-              "id": "11f4238",
+              "id": "dbc6575",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "id": "8c78e2c",
+      "id": "41a5a37",
       "elType": "section",
       "settings": {
         "background_color": "#ebe6d8",
@@ -187,14 +187,14 @@
       },
       "elements": [
         {
-          "id": "fd25058",
+          "id": "07d30a5",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "4032a15",
+              "id": "74ee24a",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -205,7 +205,7 @@
               "elements": []
             },
             {
-              "id": "eed35da",
+              "id": "6bf8b21",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": "6526c9a",
+      "id": "85c03dd",
       "elType": "section",
       "settings": {
         "background_color": "#ebe6d8",
@@ -232,14 +232,14 @@
       },
       "elements": [
         {
-          "id": "3e95a0a",
+          "id": "d0bf81a",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "425254d",
+              "id": "71a2d41",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -251,7 +251,7 @@
               "elements": []
             },
             {
-              "id": "12f14ec",
+              "id": "fe00b08",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -262,7 +262,7 @@
               "elements": []
             },
             {
-              "id": "ebcc595",
+              "id": "e9e4c05",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -273,7 +273,7 @@
               "elements": []
             },
             {
-              "id": "8552a5b",
+              "id": "43b6abe",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -282,7 +282,7 @@
               "elements": []
             },
             {
-              "id": "d510d1a",
+              "id": "61370f2",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -296,14 +296,14 @@
           ]
         },
         {
-          "id": "fbf39a2",
+          "id": "2dda618",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "90bc3db",
+              "id": "c7137f6",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -315,7 +315,7 @@
               "elements": []
             },
             {
-              "id": "a68759d",
+              "id": "c3328ac",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -326,7 +326,7 @@
               "elements": []
             },
             {
-              "id": "f915bfb",
+              "id": "a6e89e2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -337,7 +337,7 @@
               "elements": []
             },
             {
-              "id": "c21ae63",
+              "id": "5867dac",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -346,7 +346,7 @@
               "elements": []
             },
             {
-              "id": "cc10207",
+              "id": "5a3d9d7",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -360,14 +360,14 @@
           ]
         },
         {
-          "id": "befcae7",
+          "id": "76fc41e",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "115ba03",
+              "id": "15062c1",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -379,7 +379,7 @@
               "elements": []
             },
             {
-              "id": "1f0469b",
+              "id": "7b0d104",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -390,7 +390,7 @@
               "elements": []
             },
             {
-              "id": "2896795",
+              "id": "396d250",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -401,7 +401,7 @@
               "elements": []
             },
             {
-              "id": "7ea1e26",
+              "id": "b00e32b",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -410,7 +410,7 @@
               "elements": []
             },
             {
-              "id": "0625b89",
+              "id": "d584b4c",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "id": "4449731",
+      "id": "95f5487",
       "elType": "section",
       "settings": {
         "background_color": "#ebe6d8",
@@ -438,14 +438,14 @@
       },
       "elements": [
         {
-          "id": "11058ad",
+          "id": "9f09463",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "ee75005",
+              "id": "43706c1",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -457,7 +457,7 @@
               "elements": []
             },
             {
-              "id": "6c50726",
+              "id": "62a3c10",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -468,7 +468,7 @@
               "elements": []
             },
             {
-              "id": "51223ea",
+              "id": "71f3d16",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -479,7 +479,7 @@
               "elements": []
             },
             {
-              "id": "69f4462",
+              "id": "9f2b50d",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -488,7 +488,7 @@
               "elements": []
             },
             {
-              "id": "223c3ad",
+              "id": "96128f6",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -502,14 +502,14 @@
           ]
         },
         {
-          "id": "c01073c",
+          "id": "209c7d5",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "de85bfa",
+              "id": "5900b93",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -521,7 +521,7 @@
               "elements": []
             },
             {
-              "id": "4c31d12",
+              "id": "bac2c29",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -532,7 +532,7 @@
               "elements": []
             },
             {
-              "id": "0b6bdb3",
+              "id": "8831481",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -543,7 +543,7 @@
               "elements": []
             },
             {
-              "id": "7f8dabe",
+              "id": "e656ff4",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -552,7 +552,7 @@
               "elements": []
             },
             {
-              "id": "9c5be28",
+              "id": "66a1c99",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -566,14 +566,14 @@
           ]
         },
         {
-          "id": "74e50af",
+          "id": "c26a518",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "63b42c1",
+              "id": "efd4fd1",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
@@ -585,7 +585,7 @@
               "elements": []
             },
             {
-              "id": "89ad903",
+              "id": "3b5f5f2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -596,7 +596,7 @@
               "elements": []
             },
             {
-              "id": "5e0da00",
+              "id": "dcc265b",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -607,7 +607,7 @@
               "elements": []
             },
             {
-              "id": "d865989",
+              "id": "b69b1e7",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -616,7 +616,7 @@
               "elements": []
             },
             {
-              "id": "53d1865",
+              "id": "af7c439",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -632,7 +632,7 @@
       ]
     },
     {
-      "id": "de79b4b",
+      "id": "1a147b5",
       "elType": "section",
       "settings": {
         "background_color": "#162e24",
@@ -644,14 +644,14 @@
       },
       "elements": [
         {
-          "id": "00e8306",
+          "id": "54043da",
           "elType": "column",
           "settings": {
             "_column_size": 100
           },
           "elements": [
             {
-              "id": "855349e",
+              "id": "4e5a6f4",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -662,7 +662,7 @@
               "elements": []
             },
             {
-              "id": "0443ac1",
+              "id": "d15e36f",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "id": "5303e0f",
+      "id": "75c3d95",
       "elType": "section",
       "settings": {
         "background_color": "#162e24",
@@ -689,60 +689,60 @@
       },
       "elements": [
         {
-          "id": "5f9f4ac",
+          "id": "c9389e2",
           "elType": "column",
           "settings": {
             "_column_size": 33
           },
           "elements": [
             {
-              "id": "41cda56",
+              "id": "172e4cc",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "If you're looking to start your healing journey or continue it, I highly recommend Sacred Origins NYC. The care and hard work I saw and experienced both through the retreat and local group work is admirable. There's a lot of care and intentionality that went into ensuring that the practices remain sacred and that the journey feels safe. It's suitable for those who are less outgoing and for those who are more comfortable taking up space since there is a balance of group and private time. I was able to receive/grow not only from the moments I engaged with the practices, but also from the private moments and curated group ones. Looking forward to the next retreat!",
+                "testimonial_name": "Clarimar",
+                "testimonial_job": "Retreat & Group Work"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "d30d522",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "31df157",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "I have no words to describe how amazing my spiritual retreat experience was with Sacred Origins, I am deeply thankful for everything. I can\u2019t wait for the next retreat.",
+                "testimonial_name": "Alexander",
+                "testimonial_job": "Spiritual Retreat"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "52bd335",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33
+          },
+          "elements": [
+            {
+              "id": "b1db2ca",
               "elType": "widget",
               "widgetType": "testimonial",
               "settings": {
                 "testimonial_content": "Kaira & Bryant have played a role in helping me change my life. They take the time to get to know you and create an environment that is safe, and simply feels like home. As someone who approaches the unfamiliar with precaution, it\u2019s been a breath of fresh air to come across people so patient, understanding and knowledgable. I look forward to more opportunities to work with them as I continue down my own journey of exploration and growth.",
                 "testimonial_name": "Lauren O.",
                 "testimonial_job": "Retreat & Ceremony"
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "425e1b7",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33
-          },
-          "elements": [
-            {
-              "id": "eb46c04",
-              "elType": "widget",
-              "widgetType": "testimonial",
-              "settings": {
-                "testimonial_content": "I have had the pleasure of attending one of the retreats and receiving the guidance from both Kaira and Bryant. It was truly an enlightening experience and was the catalyst of my transformation in many areas of my life. On another occasion, I was educated about Hap\u00e8 and was served for the 1st time by Kaira. She was gentle and patient during this experience. I sat with this medicine for about 10 minutes. It felt as though my energy was renewed and protected. It shifted my perspective and I also felt a lot lighter afterwards. Thank you for continuing to help and heal our community!",
-                "testimonial_name": "Piri J.",
-                "testimonial_job": "Retreat & Hap\u00e9"
-              },
-              "elements": []
-            }
-          ]
-        },
-        {
-          "id": "2be39de",
-          "elType": "column",
-          "settings": {
-            "_column_size": 33
-          },
-          "elements": [
-            {
-              "id": "95a18df",
-              "elType": "widget",
-              "widgetType": "testimonial",
-              "settings": {
-                "testimonial_content": "This has been the most incredible and transformative experience I have ever had in my life - a milestone in my life that has brought clarity. I have spent these past 4 years between all types of mediations/therapists/solo travels etc. but nothing compares to setting an intention with what is earthly grown. I stand on the other side of this experience another person and a proud advocate of this experience. Being a human is tricky but can be so beautiful the further you explore.",
-                "testimonial_name": "Omar M.",
-                "testimonial_job": "Plant Medicine Journey"
               },
               "elements": []
             }

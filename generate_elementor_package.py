@@ -460,6 +460,111 @@ with open(TEMPLATES_DIR / "elementor-shop.json", "w", encoding="utf-8") as f:
     json.dump(shop_template, f, indent=2)
 
 # -----------------------------------------------------------------------------
+# 5b. ELEMENTOR TEMPLATE: HEADER
+# -----------------------------------------------------------------------------
+header_html = """<div class="announcement">
+  <span class="announcement-left">NYC · A PLACE TO RETURN TO</span>
+  <span class="announcement-center">ROOTED IN COMMUNITY · GUIDED BY ANCESTRAL WISDOM</span>
+  <span class="announcement-right">EST. IN CONNECTION <span aria-hidden="true">✳</span></span>
+</div>
+<header class="header">
+  <div class="header-inner">
+    <span class="header-loc">SACRED ORIGINS<br>NEW YORK CITY</span>
+    <a class="brand" href="/" aria-label="Sacred Origins home">
+      <img class="brand-logo" src="/wp-content/uploads/sacred-origins-official-logo.png" width="105" height="105" alt="Sacred Origins NYC">
+    </a>
+    <div class="header-actions">
+      <a class="header-shop" href="/scheduling/">SCHEDULE CALL <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-controls="nav" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="nav" id="nav" aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="/about-us/">About Us</a>
+    <a href="/offerings/">Offerings</a>
+    <a href="/scheduling/">Scheduling</a>
+    <a href="/shop/">Shop</a>
+    <a href="/blog/">Blog</a>
+    <a href="/contact/">Contact</a>
+    <a class="nav-cta-mobile" href="/scheduling/">Schedule a Call <span>↗</span></a>
+  </nav>
+</header>"""
+
+header_template = {
+    "version": "0.4",
+    "title": "Sacred Origins - Header",
+    "type": "section",
+    "content": [
+        make_section([
+            make_column([
+                make_widget("html", {"html": header_html})
+            ], 100)
+        ], {"layout": "full_width", "gap": "no", "padding": {"unit": "px", "top": "0", "bottom": "0", "left": "0", "right": "0", "isLinked": True}})
+    ]
+}
+with open(TEMPLATES_DIR / "elementor-header.json", "w", encoding="utf-8") as f:
+    json.dump(header_template, f, indent=2)
+
+# -----------------------------------------------------------------------------
+# 5c. ELEMENTOR TEMPLATE: FOOTER
+# -----------------------------------------------------------------------------
+footer_html = """<footer class="footer">
+  <div class="footer-inner-wrap">
+    <div class="footer-intro">
+      <span class="eyebrow light">THE NEXT CHAPTER BEGINS HERE</span>
+      <a href="/scheduling/">Begin your journey <span>↗</span></a>
+    </div>
+    <div class="footer-top">
+      <div>
+        <a class="footer-logo" href="/" aria-label="Sacred Origins home">
+          <img src="/wp-content/uploads/sacred-origins-logo-light.png" width="150" height="150" alt="Sacred Origins NYC">
+        </a>
+        <p>A sacred sanctuary for healing, reflection, and ancestral reconnection.</p>
+        <a href="mailto:sacredoriginsnyc@gmail.com" class="footer-mail">sacredoriginsnyc@gmail.com ↗</a>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="/about-us/">About Us</a>
+        <a href="/offerings/">Offerings</a>
+        <a href="/scheduling/">Scheduling</a>
+        <a href="/shop/">Apothecary</a>
+        <a href="/blog/">Journal & Articles</a>
+      </div>
+      <div>
+        <h3>Connect</h3>
+        <a href="/contact/">Contact Us</a>
+        <a href="/scheduling/">Schedule a Consultation</a>
+        <span>New York City · Lenapehoking</span>
+      </div>
+    </div>
+    <a class="footer-wordmark" href="/" aria-label="Sacred Origins home">SACRED<span>✺</span>ORIGINS</a>
+    <div class="footer-bottom">
+      <span>© 2026 Sacred Origins NYC. All Rights Reserved.</span>
+      <span>EMPOWERING BIPOC COMMUNITIES · GUIDED BY ANCESTRAL WISDOM</span>
+      <a href="#main">BACK TO TOP ↑</a>
+    </div>
+  </div>
+</footer>"""
+
+footer_template = {
+    "version": "0.4",
+    "title": "Sacred Origins - Footer",
+    "type": "section",
+    "content": [
+        make_section([
+            make_column([
+                make_widget("html", {"html": footer_html})
+            ], 100)
+        ], {"layout": "full_width", "gap": "no", "padding": {"unit": "px", "top": "0", "bottom": "0", "left": "0", "right": "0", "isLinked": True}})
+    ]
+}
+with open(TEMPLATES_DIR / "elementor-footer.json", "w", encoding="utf-8") as f:
+    json.dump(footer_template, f, indent=2)
+
+
+# -----------------------------------------------------------------------------
 # 6. WOOCOMMERCE PRODUCTS CSV EXPORT
 # -----------------------------------------------------------------------------
 import csv

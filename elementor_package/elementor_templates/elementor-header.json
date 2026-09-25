@@ -1,0 +1,43 @@
+{
+  "version": "0.4",
+  "title": "Sacred Origins - Header",
+  "type": "section",
+  "content": [
+    {
+      "id": "5b613bc",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "bottom": "0",
+          "left": "0",
+          "right": "0",
+          "isLinked": true
+        }
+      },
+      "elements": [
+        {
+          "id": "2ff0d86",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "c065b83",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"announcement\">\n  <span class=\"announcement-left\">NYC \u00b7 A PLACE TO RETURN TO</span>\n  <span class=\"announcement-center\">ROOTED IN COMMUNITY \u00b7 GUIDED BY ANCESTRAL WISDOM</span>\n  <span class=\"announcement-right\">EST. IN CONNECTION <span aria-hidden=\"true\">\u2733</span></span>\n</div>\n<header class=\"header\">\n  <div class=\"header-inner\">\n    <span class=\"header-loc\">SACRED ORIGINS<br>NEW YORK CITY</span>\n    <a class=\"brand\" href=\"/\" aria-label=\"Sacred Origins home\">\n      <img class=\"brand-logo\" src=\"/wp-content/uploads/sacred-origins-official-logo.png\" width=\"105\" height=\"105\" alt=\"Sacred Origins NYC\">\n    </a>\n    <div class=\"header-actions\">\n      <a class=\"header-shop\" href=\"/scheduling/\">SCHEDULE CALL <span>\u2197</span></a>\n      <button class=\"menu-toggle\" aria-label=\"Open menu\" aria-controls=\"nav\" aria-expanded=\"false\">\n        <span></span><span></span>\n      </button>\n    </div>\n  </div>\n  <nav class=\"nav\" id=\"nav\" aria-label=\"Main navigation\">\n    <a href=\"/\">Home</a>\n    <a href=\"/about-us/\">About Us</a>\n    <a href=\"/offerings/\">Offerings</a>\n    <a href=\"/scheduling/\">Scheduling</a>\n    <a href=\"/shop/\">Shop</a>\n    <a href=\"/blog/\">Blog</a>\n    <a href=\"/contact/\">Contact</a>\n    <a class=\"nav-cta-mobile\" href=\"/scheduling/\">Schedule a Call <span>\u2197</span></a>\n  </nav>\n</header>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
