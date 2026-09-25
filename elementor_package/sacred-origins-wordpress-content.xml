@@ -365,14 +365,37 @@
 	</item>
 
 	<item>
-		<title><![CDATA[Contact]]></title>
-		<link>https://www.sacredorigins.org/contact/</link>
+		<title><![CDATA[Scheduling]]></title>
+		<link>https://www.sacredorigins.org/scheduling/</link>
 		<pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://www.sacredorigins.org/?page_id=109</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- Edit with Elementor -->]]></content:encoded>
 		<wp:post_id>109</wp:post_id>
+		<wp:post_date><![CDATA[2026-09-23 10:00:00]]></wp:post_date>
+		<wp:post_name><![CDATA[scheduling]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_elementor_edit_mode]]></wp:meta_key>
+			<wp:meta_value><![CDATA[builder]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+			<wp:meta_value><![CDATA[elementor_header_footer]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+
+	<item>
+		<title><![CDATA[Contact]]></title>
+		<link>https://www.sacredorigins.org/contact/</link>
+		<pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://www.sacredorigins.org/?page_id=110</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- Edit with Elementor -->]]></content:encoded>
+		<wp:post_id>110</wp:post_id>
 		<wp:post_date><![CDATA[2026-09-23 10:00:00]]></wp:post_date>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
@@ -392,10 +415,10 @@
 		<link>https://www.sacredorigins.org/shop/</link>
 		<pubDate>Wed, 23 Sep 2026 10:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">https://www.sacredorigins.org/?page_id=110</guid>
+		<guid isPermaLink="false">https://www.sacredorigins.org/?page_id=111</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- Edit with Elementor -->]]></content:encoded>
-		<wp:post_id>110</wp:post_id>
+		<wp:post_id>111</wp:post_id>
 		<wp:post_date><![CDATA[2026-09-23 10:00:00]]></wp:post_date>
 		<wp:post_name><![CDATA[shop]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
