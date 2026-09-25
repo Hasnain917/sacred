@@ -473,6 +473,7 @@ def shell(title, body, active='', description='Sacred Origins NYC — Heart-cent
     </div>
     <nav class="nav" id="nav" aria-label="Main navigation">
       {links}
+      <a class="nav-cta-mobile" href="/scheduling/">Schedule a Call <span>↗</span></a>
     </nav>
   </header>
   <main id="main">
@@ -862,7 +863,7 @@ offerings_page_html = ''.join(f'''
     <span style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#9a794a;margin-bottom:8px;font-weight:600;">{off['tag']}</span>
     <h3>{off['title']}</h3>
     <p>{off['desc']}</p>
-    <div style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:auto;">
+    <div class="offering-detail-actions" style="display:flex;gap:20px;align-items:center;flex-wrap:wrap;margin-top:auto;">
       <a class="button button-dark" href="/scheduling/?offering={quote(off['title'])}">Schedule a Call <span>↗</span></a>
       <a class="underline-link" href="/contact/?subject={quote(off['title'])}">Inquire via message <span>↗</span></a>
     </div>
@@ -912,7 +913,7 @@ scheduling_content = f'''
 </section>
 
 <section class="section-wrap" style="padding-top:70px;padding-bottom:90px;">
-  <div style="display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:start;">
+  <div class="scheduling-grid">
     <div>
       <p class="eyebrow">DIRECT ONLINE BOOKING</p>
       <h2 style="font-size:clamp(2.5rem,4vw,4rem);margin:10px 0 25px;">Select a time that<br><em>works for you.</em></h2>
@@ -920,7 +921,7 @@ scheduling_content = f'''
       
       <!-- Calendly inline widget -->
       <div class="calendly-box">
-        <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15" style="min-width:320px;height:700px;"></div>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15" style="width:100%;height:700px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       </div>
       
@@ -1058,7 +1059,7 @@ for post in blog_posts:
       
       <div style="margin-top:80px;border-top:1px solid #d5cfbe;padding-top:40px;">
         <h3 style="font-size:28px;margin-bottom:30px;">Continue Reading</h3>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:25px;">
+        <div class="related-articles-grid">
           {related_html}
         </div>
       </div>
