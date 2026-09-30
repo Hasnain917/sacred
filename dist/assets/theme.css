@@ -1137,38 +1137,206 @@ h1, h2, h3, h4, p, span, a, label {
   gap: 24px;
 }
 
-/* Scheduling Page & Grid */
-.scheduling-grid {
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 50px;
-  align-items: start;
+/* Scheduling Page & Calendly Optimization */
+.scheduling-page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.calendly-box {
-  background: #f5f2ea;
+
+.scheduling-highlights {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-bottom: 55px;
+  padding: 24px 28px;
+  background: #ebe6d8;
   border: 1px solid #d5cfbe;
-  padding: 16px;
-  margin: 25px 0 35px;
-  min-height: 720px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.highlight-icon {
+  font-size: 22px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.highlight-item strong {
+  display: block;
+  font-size: 13px;
+  color: #183126;
+  font-weight: 600;
+  margin-bottom: 3px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: 'Manrope', sans-serif;
+}
+
+.highlight-item p {
+  font-size: 12px;
+  color: #5a645b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.scheduling-header {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 40px;
+}
+
+.scheduling-header h2 {
+  font-size: clamp(2.4rem, 4vw, 3.8rem);
+  letter-spacing: -0.04em;
+  margin: 12px 0 16px;
+}
+
+.scheduling-header p {
+  color: #576059;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0 auto;
+}
+
+/* Calendly Box Wrapper - Full Width Primary Container */
+.calendly-box-wrapper {
+  max-width: 1100px;
+  margin: 0 auto 75px;
+}
+
+.calendly-box {
+  background: #ffffff;
+  border: 1px solid #d5cfbe;
+  box-shadow: 0 16px 45px rgba(24, 49, 38, 0.07);
+  padding: 8px;
+  margin: 0 0 25px;
+  min-height: 920px;
   position: relative;
   overflow: hidden;
   box-sizing: border-box;
 }
+
 .calendly-inline-widget {
   width: 100% !important;
-  min-width: 0 !important;
-  height: 700px !important;
+  min-width: 320px !important;
+  height: 920px !important;
 }
+
 .calendly-fallback {
   text-align: center;
-  padding: 24px 18px;
+  padding: 22px 28px;
   border: 1px dashed #bfa677;
   background: #ebe6d8;
-  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
+
 .calendly-fallback p {
-  margin-bottom: 12px;
+  margin: 0;
   color: #576059;
+  font-size: 14px;
+}
+
+/* Legacy grid fallback support */
+.scheduling-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+/* Post-Booking Info Grid (2 Columns below) */
+.scheduling-info-grid {
+  display: grid;
+  grid-template-columns: 1.08fr 0.92fr;
+  gap: 35px;
+  margin-top: 40px;
+}
+
+.info-card {
+  background: #f5f2ea;
+  border: 1px solid #d5cfbe;
+  overflow: hidden;
+}
+
+.info-card-dark {
+  background: #183126;
+  color: #f5f2ea;
+  border-color: #284436;
+}
+
+.info-card-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.info-card-body {
+  padding: 35px 30px;
+}
+
+.info-card-body h3 {
+  font-size: 26px;
+  margin: 10px 0 20px;
+}
+
+.expectation-list {
+  color: #556057;
+  line-height: 1.8;
+  padding-left: 20px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.expectation-list li {
+  margin-bottom: 12px;
+}
+
+.expectation-list strong {
+  color: #183126;
+}
+
+.contact-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 14px;
+}
+
+.bullet-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #284436;
+  padding-bottom: 12px;
+  gap: 15px;
+}
+
+.bullet-label {
+  color: #c9a96e;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.bullet-link {
+  color: #f5f2ea;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.2s;
+}
+
+.bullet-link:hover {
+  color: #dcc99d;
 }
 
 /* Offerings Detailed Presentation Cards */
@@ -1778,6 +1946,14 @@ h1, h2, h3, h4, p, span, a, label {
     grid-template-columns: 1fr;
     gap: 40px;
   }
+  .scheduling-highlights {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+  .scheduling-info-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
   .offering-detail-card {
     grid-template-columns: 1fr;
   }
@@ -1910,13 +2086,37 @@ h1, h2, h3, h4, p, span, a, label {
     justify-content: space-between;
   }
   
-  /* Calendly box fluid on mobile */
+  /* Calendly box fluid and tall on mobile */
+  .calendly-box-wrapper {
+    margin-bottom: 45px;
+  }
   .calendly-box {
-    padding: 10px 6px;
-    min-height: 640px;
+    padding: 6px;
+    min-height: 980px;
+    margin-bottom: 20px;
   }
   .calendly-inline-widget {
-    height: 640px !important;
+    height: 980px !important;
+  }
+  .scheduling-highlights {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+  }
+  .calendly-fallback {
+    flex-direction: column;
+    text-align: center;
+    gap: 14px;
+    padding: 18px;
+  }
+  .calendly-fallback a {
+    width: 100%;
+    justify-content: center;
+  }
+  .bullet-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
   }
   
   /* Footer on mobile */
@@ -2014,24 +2214,24 @@ h1, h2, h3, h4, p, span, a, label {
 
 /* APOTHECARY PRODUCT BACKGROUND IMAGES */
 .product-image {
-  background-image: url('/assets/apothecary.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/apothecary.webp');
 }
 .product-cacao-hape {
-  background-image: url('/assets/apothecary.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/apothecary.webp');
   background-position: center 55%;
 }
 .product-murici-hape {
-  background-image: url('/assets/still-life.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/still-life.webp');
   background-position: 23% 50%;
 }
 .product-samauma-flower-hape {
-  background-image: url('/assets/apothecary.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/apothecary.webp');
   background-position: 75% 50%;
   filter: saturate(.7);
 }
 .product-kuripe,
 .product-tepi {
-  background-image: url('/assets/applicators.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/applicators.webp');
 }
 .product-kuripe {
   background-position: 24% center;
@@ -2040,11 +2240,11 @@ h1, h2, h3, h4, p, span, a, label {
   background-position: 78% center;
 }
 .detail-image {
-  background-image: url('/assets/apothecary.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/apothecary.webp');
 }
 .detail-image.product-kuripe,
 .detail-image.product-tepi {
-  background-image: url('/assets/applicators.webp');
+  background-image: url('https://sacred-nu.vercel.app/assets/applicators.webp');
 }
 
 /* MOTION ENTRANCES */
@@ -2263,5 +2463,215 @@ h1, h2, h3, h4, p, span, a, label {
   height: auto !important;
   margin: 20px 0 !important;
 }
+
+/* ==============================================================================
+   SACRED ORIGINS ELEMENTOR CONTRAST & TYPOGRAPHY ENHANCEMENTS
+   ============================================================================== */
+
+/* Hero & Dark Forest Section Heading Colors */
+.elementor-section.elementor-element-75bfdd39 .elementor-heading-title,
+.elementor-section.elementor-element-5ed673f3 .elementor-heading-title,
+.elementor-section[data-settings*="#173328"] .elementor-heading-title,
+.elementor-section[data-settings*="#142b22"] .elementor-heading-title,
+.elementor-section.elementor-element-75bfdd39 h1,
+.elementor-section.elementor-element-5ed673f3 h2 {
+  color: #f1eee6 !important;
+  font-family: 'Playfair Display', Georgia, serif !important;
+}
+
+.elementor-section.elementor-element-75bfdd39 h5.elementor-heading-title,
+.elementor-section.elementor-element-5ed673f3 h6.elementor-heading-title {
+  color: #bfa677 !important;
+  letter-spacing: 0.18em !important;
+  font-family: 'Manrope', sans-serif !important;
+}
+
+.elementor-section.elementor-element-75bfdd39 p,
+.elementor-section.elementor-element-5ed673f3 p {
+  color: #cad7c8 !important;
+}
+
+.elementor-section.elementor-element-75bfdd39 .elementor-button,
+.elementor-section.elementor-element-5ed673f3 .elementor-button {
+  background-color: #bfa677 !important;
+  color: #0d211a !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+}
+
+/* General Dark Elementor Container Fallback */
+.e-con-boxed:has([style*="background-color: #1"]),
+.elementor-section:has([style*="background-color: #1"]) {
+  color: #f1eee6;
+}
+
+/* ==============================================================================
+   SACRED APOTHECARY SHOP & PRODUCT GRID STYLES (ELEMENTOR & WOOCOMMERCE)
+   ============================================================================== */
+.shop-hero {
+  background: #ddd6c5;
+  padding: 80px 5vw;
+  text-align: center;
+}
+.shop-hero .eyebrow {
+  color: #765f40;
+  letter-spacing: 0.2em;
+  font: 600 11px 'Manrope', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.shop-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(36px, 5vw, 64px);
+  color: var(--forest);
+  margin-bottom: 16px;
+}
+.shop-hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #576059;
+  font-size: 18px;
+}
+
+.shop-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d5cfbe;
+}
+.shop-top .eyebrow {
+  font: 600 10px 'Manrope', sans-serif;
+  letter-spacing: 0.18em;
+  color: #8c734b;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.shop-top h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 3.5vw, 42px);
+  color: var(--forest);
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.filter {
+  background: transparent;
+  border: 1px solid #bfa677;
+  color: var(--forest);
+  font: 600 11px 'Manrope', sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+}
+.filter span {
+  font-size: 9px;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+.filter:hover,
+.filter.active {
+  background: var(--forest);
+  border-color: var(--forest);
+  color: #f1eee6;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 36px;
+  margin-bottom: 60px;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: #fdfbf7;
+  border: 1px solid #d8d2be;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(20, 43, 34, 0.08);
+}
+.product-card .product-image {
+  height: 340px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 18px;
+}
+.image-stamp {
+  font: 700 10px 'Manrope', sans-serif;
+  letter-spacing: 0.15em;
+  background: rgba(20, 43, 34, 0.75);
+  color: #f1eee6;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+.product-arrow {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1eee6;
+  color: var(--forest);
+  border-radius: 50%;
+  font-size: 14px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+.product-card:hover .product-arrow {
+  background: var(--forest);
+  color: #f1eee6;
+  transform: translate(2px, -2px);
+}
+.product-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px 8px;
+  font: 600 10px 'Manrope', sans-serif;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #8c734b;
+}
+.product-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: var(--forest);
+  margin: 0 24px 8px;
+}
+.product-card p {
+  color: #637165;
+  font-size: 14px;
+  margin: 0 24px 24px;
+}
+
+.shop-note {
+  max-width: 800px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 13px;
+  color: #7a867c;
+  line-height: 1.7;
+  font-style: italic;
+}
+
 
 

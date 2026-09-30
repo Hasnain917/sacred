@@ -446,50 +446,69 @@ scheduling_sections = [
             make_widget("heading", {
                 "title": "DIRECT ONLINE BOOKING",
                 "header_size": "h6",
-                "custom_css": "color: #9a794a; letter-spacing: 0.15em;"
+                "custom_css": "color: #9a794a; letter-spacing: 0.15em; text-align: center;"
             }),
             make_widget("heading", {
-                "title": "Select a time that works for you.",
+                "title": "Select a date & time that works for you.",
                 "header_size": "h2",
-                "custom_css": "font-family: 'Playfair Display', serif; margin: 10px 0 20px;"
+                "custom_css": "font-family: 'Playfair Display', serif; margin: 10px auto 20px; text-align: center; max-width: 760px;"
             }),
             make_widget("text-editor", {
-                "editor": "<p style='color: #576059; line-height: 1.8; font-size: 15px;'>Our complimentary consultation is a safe, no-pressure space where we get to know you, understand any health considerations, and help determine whether Kambo, Reiki, or our retreats are the right fit for your path.</p>"
+                "editor": "<p style='color: #576059; line-height: 1.8; font-size: 16px; text-align: center; max-width: 700px; margin: 0 auto 35px;'>Our complimentary consultation is a safe, no-pressure space where we get to know you, understand any health considerations, and help determine whether Kambo, Reiki, or our retreats are the right fit for your path.</p>"
             }),
             make_widget("html", {
-                "html": """<div class="calendly-box">
-  <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15" style="width:100%;height:700px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-</div>
-<div class="calendly-fallback">
-  <p style="margin-bottom:12px;color:#576059;">Having trouble loading the calendar?</p>
-  <a class="button button-dark" href="https://calendly.com/sacredoriginsnyc/15" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:12px;background:#183126;color:#fff;padding:14px 22px;text-decoration:none;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;">Open Calendly in New Tab <span>↗</span></a>
+                "html": """<div class="calendly-box-wrapper" style="max-width:1100px;margin:0 auto 50px;">
+  <div class="calendly-box" style="background:#fff;border:1px solid #d5cfbe;box-shadow:0 16px 45px rgba(24,49,38,0.07);padding:8px;min-height:920px;">
+    <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15?hide_gdpr_banner=1&primary_color=183126" style="min-width:320px;width:100%;height:920px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  </div>
+  <div class="calendly-fallback" style="text-align:center;padding:22px 28px;border:1px dashed #bfa677;background:#ebe6d8;margin-top:20px;display:flex;align-items:center;justify-content:space-between;gap:20px;">
+    <p style="margin:0;color:#576059;font-size:14px;">Having trouble loading the interactive calendar widget?</p>
+    <a class="button button-dark" href="https://calendly.com/sacredoriginsnyc/15" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:12px;background:#183126;color:#fff;padding:14px 22px;text-decoration:none;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;">Open Calendly in Full Window <span>↗</span></a>
+  </div>
 </div>"""
             })
-        ], 60),
+        ], 100)
+    ], {"background_color": "#f5f2ea", "padding": {"unit": "px", "top": "70", "bottom": "40"}}),
+
+    make_section([
         make_column([
             make_widget("html", {
-                "html": """<div style="background:#f5f2ea;border:1px solid #d5cfbe;overflow:hidden;margin-bottom:30px;">
-  <img src="https://sacred-nu.vercel.app/assets/images/unsplash-image-rrnhdu2jokq.jpg" style="width:100%;height:300px;object-fit:cover;display:block;" alt="Sacred space reflection">
-  <div style="padding:30px 25px;">
-    <h3 style="font-family:'Playfair Display',serif;font-size:24px;margin:0 0 12px;">What to Expect on the Call</h3>
+                "html": """<div style="background:#f5f2ea;border:1px solid #d5cfbe;overflow:hidden;height:100%;">
+  <img src="https://sacred-nu.vercel.app/assets/images/unsplash-image-rrnhdu2jokq.jpg" style="width:100%;height:280px;object-fit:cover;display:block;" alt="Sacred space reflection">
+  <div style="padding:32px 28px;">
+    <p style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;font-weight:600;color:#a28153;margin:0 0 10px;">PREPARATION & EXPECTATIONS</p>
+    <h3 style="font-family:'Playfair Display',serif;font-size:24px;margin:0 0 15px;">What to Expect on the Call</h3>
     <ul style="color:#556057;line-height:1.8;padding-left:20px;font-size:14px;margin-bottom:0;">
-      <li>A welcoming conversation with Bryant or Kaira.</li>
-      <li>Discussion of your personal intentions, background, and goals.</li>
-      <li>Confidential medical review and contraindication check for Kambo.</li>
-      <li>Guidance on ceremony location, preparation diet, and dates.</li>
+      <li><strong>Warm Welcoming:</strong> A grounded conversation with Bryant or Kaira.</li>
+      <li><strong>Intentions & Goals:</strong> Open discussion of your background and healing aims.</li>
+      <li><strong>Medical Screening:</strong> Confidential contraindication verification for Kambo.</li>
+      <li><strong>Ceremony Logistics:</strong> Clear details on NYC locations, diet, and dates.</li>
     </ul>
   </div>
-</div>
-
-<div style="background:#ebe6d8;border:1px solid #d5cfbe;padding:30px 25px;">
-  <h3 style="font-family:'Playfair Display',serif;font-size:20px;margin:0 0 10px;">Prefer Email or Custom Inquiries?</h3>
-  <p style="color:#5f6b60;font-size:14px;line-height:1.7;margin-bottom:20px;">If you have a private group request, house limpia inquiry, or would prefer to connect via writing first, feel free to reach out directly.</p>
-  <a href="mailto:sacredoriginsnyc@gmail.com" style="font-weight:600;color:#183126;text-transform:uppercase;font-size:12px;letter-spacing:0.1em;border-bottom:1px solid currentColor;padding-bottom:4px;text-decoration:none;">sacredoriginsnyc@gmail.com ↗</a>
 </div>"""
             })
-        ], 40)
-    ], {"background_color": "#f5f2ea", "padding": {"unit": "px", "top": "80", "bottom": "90"}}),
+        ], 50),
+        make_column([
+            make_widget("html", {
+                "html": """<div style="background:#183126;color:#f5f2ea;border:1px solid #284436;padding:36px 30px;height:100%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;">
+  <div>
+    <p style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;font-weight:600;color:#c9a96e;margin:0 0 10px;">DIRECT INQUIRIES</p>
+    <h3 style="font-family:'Playfair Display',serif;font-size:24px;margin:0 0 15px;color:#fff;">Prefer Direct Contact or Custom Inquiries?</h3>
+    <p style="color:#b2c3b8;font-size:14px;line-height:1.8;margin-bottom:25px;">If none of the available times align with your calendar, or if you are inquiring about private group ceremonies or house limpia cleanses, reach out directly.</p>
+    <div style="display:flex;flex-direction:column;gap:12px;font-size:14px;">
+      <div style="display:flex;justify-content:space-between;border-bottom:1px solid #284436;padding-bottom:10px;"><strong style="color:#c9a96e;text-transform:uppercase;font-size:12px;letter-spacing:0.05em;">Direct Email:</strong> <a href="mailto:sacredoriginsnyc@gmail.com" style="color:#fff;text-decoration:underline;">sacredoriginsnyc@gmail.com ↗</a></div>
+      <div style="display:flex;justify-content:space-between;border-bottom:1px solid #284436;padding-bottom:10px;"><strong style="color:#c9a96e;text-transform:uppercase;font-size:12px;letter-spacing:0.05em;">Locations:</strong> <span>Brooklyn & Manhattan, NYC</span></div>
+      <div style="display:flex;justify-content:space-between;padding-bottom:10px;"><strong style="color:#c9a96e;text-transform:uppercase;font-size:12px;letter-spacing:0.05em;">Response Time:</strong> <span>Within 24–48 hours</span></div>
+    </div>
+  </div>
+  <div style="margin-top:30px;padding-top:20px;border-top:1px solid #284436;">
+    <a href="https://sacred-nu.vercel.app/offerings/" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#f5f2ea;color:#183126;padding:14px 22px;text-decoration:none;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;width:100%;box-sizing:border-box;">Explore Offerings →</a>
+  </div>
+</div>"""
+            })
+        ], 50)
+    ], {"background_color": "#f5f2ea", "padding": {"unit": "px", "top": "10", "bottom": "90"}}),
 
     make_section([
         make_column([
@@ -524,44 +543,15 @@ with open(TEMPLATES_DIR / "elementor-scheduling.json", "w", encoding="utf-8") as
     json.dump(scheduling_template, f, indent=2)
 
 # -----------------------------------------------------------------------------
-# 5. ELEMENTOR TEMPLATE: SHOP
+# 5. ELEMENTOR TEMPLATE: SHOP & PRODUCT ARCHIVE
 # -----------------------------------------------------------------------------
-shop_sections = [
-    make_section([
-        make_column([
-            make_widget("heading", {
-                "title": "THE SACRED ORIGINS APOTHECARY",
-                "header_size": "h6",
-                "custom_css": "color: #765f40; letter-spacing: 0.2em; text-align: center;"
-            }),
-            make_widget("heading", {
-                "title": "Gather your ritual.",
-                "header_size": "h1",
-                "custom_css": "font-family: 'Playfair Display', serif; text-align: center;"
-            }),
-            make_widget("text-editor", {
-                "editor": "<p style='text-align: center; color: #576059; font-size: 18px;'>Hapé blends and traditional applicators, selected for intentional practice and ancestral connection.</p>"
-            })
-        ], 100)
-    ], {"background_color": "#ddd6c5", "padding": {"unit": "px", "top": "80", "bottom": "80"}}),
-    
-    make_section([
-        make_column([
-            make_widget("shortcode", {
-                "shortcode": "[products columns='3' limit='12']"
-            })
-        ], 100)
-    ], {"background_color": "#f5f2ea", "padding": {"unit": "px", "top": "60", "bottom": "80"}})
-]
+from build_shop_templates import shop_page_template, shop_archive_template
 
-shop_template = {
-    "version": "0.4",
-    "title": "Sacred Origins - Shop",
-    "type": "page",
-    "content": shop_sections
-}
 with open(TEMPLATES_DIR / "elementor-shop.json", "w", encoding="utf-8") as f:
-    json.dump(shop_template, f, indent=2)
+    json.dump(shop_page_template, f, indent=2)
+
+with open(TEMPLATES_DIR / "elementor-shop-archive.json", "w", encoding="utf-8") as f:
+    json.dump(shop_archive_template, f, indent=2)
 
 # -----------------------------------------------------------------------------
 # 5a. ELEMENTOR TEMPLATE: BLOG HUB

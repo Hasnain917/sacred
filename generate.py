@@ -909,46 +909,105 @@ scheduling_content = f'''
 <section class="page-hero scheduling-hero">
   <p class="eyebrow">INTAKE & CONSULTATION</p>
   <h1>Begin your <em>healing journey.</em></h1>
-  <p>Schedule a 15-minute consultation with Bryant or Kai to discuss your intentions, answer questions, and prepare for ceremony.</p>
+  <p>Schedule a complimentary 15-minute consultation with Bryant or Kai to discuss your intentions, answer questions, and prepare for ceremony.</p>
 </section>
 
-<section class="section-wrap" style="padding-top:70px;padding-bottom:90px;">
-  <div class="scheduling-grid">
-    <div>
-      <p class="eyebrow">DIRECT ONLINE BOOKING</p>
-      <h2 style="font-size:clamp(2.5rem,4vw,4rem);margin:10px 0 25px;">Select a time that<br><em>works for you.</em></h2>
-      <p style="color:#576059;line-height:1.8;">Our complimentary consultation is a safe, no-pressure space where we get to know you, understand any health considerations, and help determine whether Kambo, Reiki, or our retreats are the right fit for your path.</p>
-      
-      <!-- Calendly inline widget -->
-      <div class="calendly-box">
-        <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15" style="width:100%;height:700px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-      </div>
-      
-      <div class="calendly-fallback">
-        <p>Having trouble loading the calendar?</p>
-        <a class="button button-dark" href="https://calendly.com/sacredoriginsnyc/15" target="_blank" rel="noopener noreferrer">Open Calendly in New Tab <span>↗</span></a>
+<section class="section-wrap scheduling-page-wrap" style="padding-top:60px;padding-bottom:100px;">
+  <!-- Trust & Key Consultation Highlights Strip -->
+  <div class="scheduling-highlights">
+    <div class="highlight-item">
+      <span class="highlight-icon">⏱</span>
+      <div>
+        <strong>15-Minute Intake</strong>
+        <p>Focused conversation to align on your path</p>
       </div>
     </div>
-    
-    <div>
-      <div style="background:#f5f2ea;border:1px solid #d5cfbe;overflow:hidden;margin-bottom:30px;">
-        <img src="/assets/images/unsplash-image-rrnhdu2jokq.jpg" style="width:100%;height:320px;object-fit:cover;" alt="Sacred space reflection">
-        <div style="padding:30px 25px;">
-          <h3 style="font-size:24px;margin-bottom:12px;">What to Expect on the Call</h3>
-          <ul style="color:#556057;line-height:1.8;padding-left:20px;font-size:14px;margin-bottom:0;">
-            <li>A welcoming conversation with Bryant or Kaira.</li>
-            <li>Discussion of your personal intentions, background, and goals.</li>
-            <li>Confidential medical review and contraindication check for Kambo.</li>
-            <li>Guidance on ceremony location, preparation diet, and dates.</li>
-          </ul>
-        </div>
+    <div class="highlight-item">
+      <span class="highlight-icon">🌿</span>
+      <div>
+        <strong>100% Complimentary</strong>
+        <p>No-pressure exploration of our medicines</p>
       </div>
-      
-      <div style="background:#ebe6d8;border:1px solid #d5cfbe;padding:30px 25px;">
-        <h3 style="font-size:20px;margin-bottom:10px;">Prefer Email or Custom Inquiries?</h3>
-        <p style="color:#5f6b60;font-size:14px;line-height:1.7;margin-bottom:20px;">If you have a private group request, house limpia inquiry, or would prefer to connect via writing first, feel free to reach out directly.</p>
-        <a class="underline-link" href="mailto:sacredoriginsnyc@gmail.com">sacredoriginsnyc@gmail.com <span>↗</span></a>
+    </div>
+    <div class="highlight-item">
+      <span class="highlight-icon">🔒</span>
+      <div>
+        <strong>Confidential Space</strong>
+        <p>Private health review & contraindications</p>
+      </div>
+    </div>
+    <div class="highlight-item">
+      <span class="highlight-icon">📍</span>
+      <div>
+        <strong>Virtual Consultation</strong>
+        <p>Convenient phone or video call from anywhere</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Booking Header -->
+  <div class="scheduling-header">
+    <p class="eyebrow">DIRECT ONLINE BOOKING</p>
+    <h2>Select a date & time that <em>works for you.</em></h2>
+    <p>Our complimentary consultation is a safe, no-pressure space where we get to know you, understand any health considerations, and help determine whether Kambo, Reiki, or our retreats are the right fit for your path.</p>
+  </div>
+
+  <!-- Full-Width High-Capacity Calendly Embed Container -->
+  <div class="calendly-box-wrapper">
+    <div class="calendly-box">
+      <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15?hide_gdpr_banner=1&primary_color=183126" style="min-width:320px;width:100%;height:920px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </div>
+    
+    <div class="calendly-fallback">
+      <p>Having trouble loading the interactive calendar widget on your device?</p>
+      <a class="button button-dark" href="https://calendly.com/sacredoriginsnyc/15" target="_blank" rel="noopener noreferrer">Open Calendly in Full Window <span>↗</span></a>
+    </div>
+  </div>
+
+  <!-- Post-Booking Information Grid -->
+  <div class="scheduling-info-grid">
+    <div class="info-card">
+      <img src="/assets/images/unsplash-image-rrnhdu2jokq.jpg" class="info-card-img" alt="Sacred space reflection">
+      <div class="info-card-body">
+        <span class="eyebrow" style="color:#a28153;">PREPARATION & EXPECTATIONS</span>
+        <h3>What to Expect on the Call</h3>
+        <ul class="expectation-list">
+          <li><strong>Warm Welcoming:</strong> A grounded, personal conversation with Bryant or Kaira.</li>
+          <li><strong>Intentions & Goals:</strong> Clear discussion of your healing background, intentions, and questions.</li>
+          <li><strong>Safety & Health Review:</strong> Confidential medical screening and contraindication verification for Kambo.</li>
+          <li><strong>Ceremony Guidance:</strong> Practical steps on ceremony locations in NYC, dietary preparations, and available dates.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-card info-card-dark">
+      <div class="info-card-body" style="height:100%;display:flex;flex-direction:column;justify-content:space-between;">
+        <div>
+          <span class="eyebrow" style="color:#c9a96e;">DIRECT INQUIRIES</span>
+          <h3 style="color:#fff;margin-top:10px;">Prefer Direct Contact or Custom Inquiries?</h3>
+          <p style="color:#b2c3b8;font-size:14px;line-height:1.8;margin:15px 0 25px;">If none of the available times align with your calendar, or if you are inquiring about private group ceremonies, corporate wellness, or house limpia cleanses, feel free to reach out directly.</p>
+          
+          <div class="contact-bullets">
+            <div class="bullet-row">
+              <span class="bullet-label">Direct Email:</span>
+              <a href="mailto:sacredoriginsnyc@gmail.com" class="bullet-link">sacredoriginsnyc@gmail.com ↗</a>
+            </div>
+            <div class="bullet-row">
+              <span class="bullet-label">Locations:</span>
+              <span style="color:#f5f2ea;">Brooklyn & Manhattan, New York City</span>
+            </div>
+            <div class="bullet-row">
+              <span class="bullet-label">Response Time:</span>
+              <span style="color:#f5f2ea;">Within 24–48 hours</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:35px;padding-top:25px;border-top:1px solid #284436;">
+          <p style="color:#8ba594;font-size:13px;line-height:1.6;margin-bottom:15px;">Looking to learn more about our ceremonial medicines?</p>
+          <a class="button button-cream" href="/offerings/" style="width:100%;justify-content:center;">Explore Ceremonial Offerings <span>→</span></a>
+        </div>
       </div>
     </div>
   </div>

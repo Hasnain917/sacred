@@ -11,7 +11,8 @@ This package contains everything needed to set up the **Sacred Origins** website
    - `elementor-about.json` — About Us template (Founders Kai & Bryant bios, full FAQs accordion)
    - `elementor-offerings.json` — Offerings template (All 6 modalities with photos & inquiry buttons)
    - `elementor-contact.json` — Contact template (Ceremony space, direct info, contact form)
-   - `elementor-shop.json` — Apothecary template with WooCommerce shortcode catalog
+   - `elementor-shop.json` — Standalone Apothecary Showcase with embedded fonts, CSS, category filter tabs, and WooCommerce catalog.
+   - `elementor-shop-archive.json` — **Elementor Pro Theme Builder Product Archive** template (uses WooCommerce Archive Products widget styled in luxury Sacred Origins branding).
 2. **`sacred-origins-woocommerce-products.csv`**:
    - 5 client products ready for 1-click WooCommerce import (Cacao Hapé, Murici Hapé, Samaúma Flower Hapé, Kuripe, Tepi).
 3. **`sacred-origins-wordpress-content.xml`**:
