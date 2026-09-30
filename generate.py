@@ -955,7 +955,7 @@ scheduling_content = f'''
   <!-- Full-Width High-Capacity Calendly Embed Container -->
   <div class="calendly-box-wrapper">
     <div class="calendly-box">
-      <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15?hide_gdpr_banner=1&primary_color=183126" style="min-width:320px;width:100%;height:920px;"></div>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/sacredoriginsnyc/15?hide_gdpr_banner=1&primary_color=183126" style="min-width:320px;width:100%;height:950px;min-height:950px;"></div>
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
     </div>
     
